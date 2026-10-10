@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Powell Andile Ndlovu — Online CV</title>
+  <meta name="description" content="Online CV for Powell Andile Ndlovu — GIS, Remote Sensing, Data Science, Environmental Planning & Management." />
+
+  <style>
+    :root{
+      --bg: #0b1220;
+      --card: rgba(255,255,255,.06);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.72);
+      --muted2: rgba(255,255,255,.58);
+      --line: rgba(255,255,255,.14);
+      --accent: #6dd6ff;
+      --accent2: #9bffb3;
+      --shadow: 0 18px 50px rgba(0,0,0,.35);
+      --radius: 18px;
+      --radius2: 14px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+
+    body{
+      margin:0;
+      font-family: var(--sans);
+      color: var(--text);
+      background:
+        radial-gradient(900px 650px at 15% 10%, rgba(109,214,255,.22), transparent 60%),
+        radial-gradient(800px 600px at 85% 0%, rgba(155,255,179,.18), transparent 60%),
+        radial-gradient(900px 700px at 70% 95%, rgba(109,214,255,.14), transparent 60%),
+        linear-gradient(180deg, #070c15 0%, #091226 50%, #070c15 100%);
+      overflow-x:hidden;
+    }
+
+    a{ color: inherit; text-decoration: none; }
+    a:hover{ text-decoration: underline; text-decoration-color: rgba(255,255,255,.35); }
+
+    .wrap{ max-width: 1080px; margin: 0 auto; padding: 28px 18px 70px; }
+
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom:18px;
+      flex-wrap:wrap;
+    }
+
+    .badge{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,.04);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 30px rgba(0,0,0,.2);
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .dot{
+      width:10px;
+      height:10px;
+      border-radius:50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 0 3px rgba(109,214,255,.14);
+    }
+
+    .btns{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content:flex-end;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.05);
+      color: var(--text);
+      box-shadow: 0 10px 30px rgba(0,0,0,.18);
+      font-size: 14px;
+      transition: transform .12s ease, background .12s ease;
+      user-select:none;
+      cursor:pointer;
+    }
+
+    .btn:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.08);
+      text-decoration:none;
+    }
+
+    .btn.primary{
+      border: 1px solid rgba(109,214,255,.35);
+      background: linear-gradient(135deg, rgba(109,214,255,.18), rgba(155,255,179,.12));
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 18px;
+      margin-top: 14px;
+    }
+
+    @media (max-width: 900px){
+      .grid{ grid-template-columns: 1fr; }
+      .btns{ justify-content:flex-start; }
+    }
+
+    .card{
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+      overflow:hidden;
+    }
+
+    .hero{ padding: 22px 22px 18px; }
+
+    .hero h1{
+      margin:0 0 6px;
+      font-size: 34px;
+      letter-spacing: -.02em;
+      line-height: 1.06;
+    }
+
+    .subtitle{
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+      margin: 0 0 14px;
+    }
+
+    .chips{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top: 14px;
+    }
+
+    .chip{
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.05);
+      color: var(--muted);
+      font-size: 12.5px;
+      white-space:nowrap;
+    }
+
+    .twoCol{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    @media (max-width: 520px){
+      .twoCol{ grid-template-columns: 1fr; }
+    }
+
+    .mini{
+      padding: 14px 16px;
+      border-radius: var(--radius2);
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.05);
+    }
+
+    .label{
+      font-size: 12px;
+      color: var(--muted2);
+      margin-bottom: 6px;
+    }
+
+    .value{
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .section{ padding: 18px 22px 22px; }
+    .section + .section{ border-top: 1px solid var(--line); }
+
+    .h2{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      margin: 0 0 12px;
+      font-size: 15px;
+      letter-spacing:.02em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.78);
+    }
+
+    .h2 span{
+      font-size: 12px;
+      text-transform:none;
+      letter-spacing:0;
+      color: var(--muted2);
+      font-family: var(--mono);
+    }
+
+    .p{
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 14.5px;
+    }
+
+    .list{
+      margin: 10px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 14.5px;
+    }
+
+    .list li{ margin: 6px 0; }
+
+    .role{
+      padding: 14px 16px;
+      border-radius: var(--radius2);
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.05);
+      margin-top: 12px;
+    }
+
+    .roleHead{
+      display:flex;
+      flex-wrap:wrap;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:10px;
+      margin-bottom: 8px;
+    }
+
+    .roleTitle{
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--text);
+    }
+
+    .roleMeta{
+      font-size: 12.5px;
+      color: var(--muted2);
+      font-family: var(--mono);
+    }
+
+    .roleOrg{
+      color: var(--muted);
+      font-size: 13.5px;
+      margin-top: 2px;
+    }
+
+    .divider{
+      height: 1px;
+      background: var(--line);
+      margin: 14px 0;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 720px){
+      .projects{ grid-template-columns: 1fr; }
+    }
+
+    .proj{
+      padding: 14px 16px;
+      border-radius: var(--radius2);
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.05);
+      transition: transform .12s ease, background .12s ease;
+    }
+
+    .proj:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.07);
+    }
+
+    .proj h3{
+      margin: 0 0 6px;
+      font-size: 15px;
+    }
+
+    .proj p{
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 13.5px;
+      line-height: 1.55;
+    }
+
+    .proj a{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      font-size: 13px;
+      color: rgba(255,255,255,.86);
+      text-decoration:none;
+      border-bottom: 1px dashed rgba(255,255,255,.25);
+      padding-bottom: 2px;
+    }
+
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .skill{
+      font-size: 12.5px;
+      color: rgba(255,255,255,.82);
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.14);
+    }
+
+    .footer{
+      margin-top: 18px;
+      color: var(--muted2);
+      font-size: 12.5px;
+      line-height: 1.6;
+      text-align:center;
+    }
+
+    @page { size: A4; margin: 10mm; }
+
+    .printOnly{ display:none; }
+
+    @media print{
+      :root{
+        --text:#111;
+        --muted:#222;
+        --muted2:#333;
+      }
+
+      body{
+        background:#fff !important;
+        color:#111 !important;
+      }
+
+      .wrap{
+        max-width: none !important;
+        padding: 0 !important;
+      }
+
+      .topbar,
+      .footer,
+      .btns,
+      .badge{
+        display:none !important;
+      }
+
+      .card{
+        box-shadow:none !important;
+        background:#fff !important;
+        border: 1px solid #e1e1e1 !important;
+        border-radius: 10px !important;
+        backdrop-filter:none !important;
+      }
+
+      .grid{
+        grid-template-columns: 1.55fr .95fr !important;
+        gap: 10px !important;
+        margin-top: 0 !important;
+      }
+
+      .hero{ padding: 14px 14px 10px !important; }
+
+      .hero h1{
+        font-size: 22px !important;
+        margin-bottom: 3px !important;
+      }
+
+      .subtitle{
+        font-size: 11.2px !important;
+        margin: 0 0 8px !important;
+        line-height: 1.35 !important;
+        color:#222 !important;
+      }
+
+      .chips{
+        gap:6px !important;
+        margin-top: 8px !important;
+      }
+
+      .chip{
+        font-size: 10px !important;
+        padding: 4px 7px !important;
+        border:1px solid #e6e6e6 !important;
+        background:#f7f7f7 !important;
+        color:#111 !important;
+      }
+
+      .twoCol{
+        gap: 8px !important;
+        margin-top: 8px !important;
+      }
+
+      .mini{
+        padding: 8px 10px !important;
+        border:1px solid #e6e6e6 !important;
+        background:#fff !important;
+      }
+
+      .label{
+        font-size: 9.5px !important;
+        color:#444 !important;
+      }
+
+      .value{
+        font-size: 10.5px !important;
+        color:#111 !important;
+      }
+
+      .section{ padding: 10px 14px 12px !important; }
+
+      .h2{
+        font-size: 11px !important;
+        margin: 0 0 7px !important;
+        color:#111 !important;
+      }
+
+      .h2 span{
+        font-size: 9.5px !important;
+        color:#444 !important;
+      }
+
+      .p{
+        font-size: 10.7px !important;
+        line-height: 1.35 !important;
+        color:#222 !important;
+      }
+
+      .list{
+        font-size: 10.6px !important;
+        line-height: 1.35 !important;
+        margin-top: 6px !important;
+        color:#222 !important;
+      }
+
+      .list li{ margin: 3px 0 !important; }
+
+      .role{
+        padding: 8px 10px !important;
+        margin-top: 8px !important;
+        border:1px solid #e6e6e6 !important;
+        background:#fff !important;
+      }
+
+      .roleTitle{ font-size: 11.2px !important; }
+
+      .roleOrg{
+        font-size: 10.2px !important;
+        color:#222 !important;
+      }
+
+      .roleMeta{
+        font-size: 9.5px !important;
+        color:#444 !important;
+      }
+
+      .divider{
+        margin: 8px 0 !important;
+        background:#e6e6e6 !important;
+      }
+
+      .projects{
+        grid-template-columns: 1fr !important;
+        gap: 7px !important;
+      }
+
+      .proj{
+        padding: 8px 10px !important;
+        border:1px solid #e6e6e6 !important;
+        background:#fff !important;
+      }
+
+      .proj h3{
+        font-size: 11.2px !important;
+        margin-bottom: 3px !important;
+      }
+
+      .proj p{
+        font-size: 10.3px !important;
+        margin-bottom: 5px !important;
+        color:#222 !important;
+        line-height:1.3 !important;
+      }
+
+      .proj a{
+        font-size: 10.2px !important;
+        border-bottom:none !important;
+        color:#111 !important;
+      }
+
+      .skills{
+        gap:6px !important;
+        margin-top: 6px !important;
+      }
+
+      .skill{
+        font-size: 10px !important;
+        padding: 4px 7px !important;
+        border:1px solid #e6e6e6 !important;
+        background:#f7f7f7 !important;
+        color:#111 !important;
+      }
+
+      a{
+        color:#111 !important;
+        text-decoration:none !important;
+      }
+
+      .card, .section, .role, .proj{
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      .printOnly{
+        display:block !important;
+        margin: 0 0 8px !important;
+      }
+
+      .printHeader{
+        border: 1px solid #e1e1e1;
+        border-radius: 10px;
+        padding: 10px 12px;
+        margin-bottom: 10px;
+      }
+
+      .printHeader .name{
+        font-size: 22px;
+        font-weight: 800;
+        margin: 0;
+      }
+
+      .printHeader .line{
+        font-size: 10.6px;
+        color:#222;
+        margin-top: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="topbar">
+      <div class="badge" aria-label="status badge">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Open to roles: GIS • Remote Sensing • Data Science • Environmental Planning</span>
+      </div>
+
+      <div class="btns">
+        <a class="btn primary" href="mailto:powellndlovu@gmail.com">✉️ Email</a>
+        <a class="btn" href="https://linkedin.com/in/powellndlovu96" target="_blank" rel="noopener">in LinkedIn</a>
+        <a class="btn" href="https://kabila96.github.io/portfolio-website/" target="_blank" rel="noopener">🌐 Website</a>
+        <button class="btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+      </div>
+    </div>
+
+    <div class="printOnly printHeader">
+      <p class="name">Powell Andile Ndlovu</p>
+      <div class="line">
+        GIS • Remote Sensing • Data Science • Environmental Planning |
+        <a href="mailto:powellndlovu@gmail.com">powellndlovu@gmail.com</a> |
+        +263 77 6006 388 |
+        <a href="https://linkedin.com/in/powellndlovu96">linkedin.com/in/powellndlovu96</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="hero">
+          <h1>Powell Andile Ndlovu</h1>
+          <p class="subtitle">
+            Environmental Planning and Management professional with strong expertise in GIS, Remote Sensing, and Data Science.
+            I specialise in transforming environmental and socioeconomic data into decision-ready insights through spatial analysis,
+            remote sensing workflows, statistical modelling, and interactive dashboards. My work focuses on supporting planning,
+            monitoring, compliance, and sustainable development through clear evidence, strong technical execution, and communication
+            that serves both technical and policy audiences.
+          </p>
+
+          <div class="chips" aria-label="key tags">
+            <span class="chip">Chevening Scholar (MSc GIS &amp; Climate Change)</span>
+            <span class="chip">GIS • Remote Sensing • Spatial Analytics</span>
+            <span class="chip">Python • R • ML • Dashboards</span>
+            <span class="chip">Monitoring &amp; Evaluation</span>
+          </div>
+
+          <div class="twoCol">
+            <div class="mini">
+              <div class="label">Location</div>
+              <div class="value">210 Hebron, Plumtree, Zimbabwe</div>
+            </div>
+
+            <div class="mini">
+              <div class="label">Phone</div>
+              <div class="value">+263 77 6006 388 • +263 77 14800 11</div>
+            </div>
+
+            <div class="mini">
+              <div class="label">Email</div>
+              <div class="value">
+                <a href="mailto:powellndlovu@gmail.com">powellndlovu@gmail.com</a> •
+                <a href="mailto:powellndlovu@yahoo.com">powellndlovu@yahoo.com</a>
+              </div>
+            </div>
+
+            <div class="mini">
+              <div class="label">Portfolio</div>
+              <div class="value">
+                <a href="https://kabila96.github.io/portfolio-website/" target="_blank" rel="noopener">Website Portfolio</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="h2">Professional Summary <span>impact-focused</span></div>
+          <p class="p">
+            I work at the intersection of environmental management, geospatial analysis, and data science—supporting planning,
+            compliance, monitoring, and sustainable development. My strengths include spatial analytics, remote sensing,
+            statistical modelling, dashboarding, and communicating results clearly to both technical and non-technical stakeholders.
+          </p>
+        </div>
+
+        <div class="section">
+          <div class="h2">Work Experience <span>selected</span></div>
+
+          <div class="role">
+            <div class="roleHead">
+              <div>
+                <div class="roleTitle">Environmental Planning &amp; Management Officer</div>
+                <div class="roleOrg">Office of the Minister of State for Provincial Affairs and Devolution — Matabeleland South, Zimbabwe</div>
+              </div>
+              <div class="roleMeta">Current</div>
+            </div>
+            <ul class="list">
+              <li>Analyse environmental impacts of development projects; ensure regulatory compliance and quality reporting.</li>
+              <li>Prepare recommendations for management and agencies; support feasibility studies for sensitive ecosystems.</li>
+              <li>Coordinate stakeholder engagement, monitoring and community outreach aligned with EMA guidelines.</li>
+            </ul>
+          </div>
+
+          <div class="role">
+            <div class="roleHead">
+              <div>
+                <div class="roleTitle">Forester (Kazuma)</div>
+                <div class="roleOrg">Forestry Commission — Ministry of Environment, Climate, Tourism and Hospitality</div>
+              </div>
+              <div class="roleMeta">May 2022 – Jul 2023</div>
+            </div>
+            <ul class="list">
+              <li>Implemented forestry management plans and budgets; led fire pre-suppression and suppression operations.</li>
+              <li>Supported KAZA corridor conservation activities with IUCN donor alignment and reporting.</li>
+            </ul>
+          </div>
+
+          <div class="role">
+            <div class="roleHead">
+              <div>
+                <div class="roleTitle">Intern (Industrial Attachment)</div>
+                <div class="roleOrg">Zambezi Elephant Conservation Trust — Jafuta, Victoria Falls</div>
+              </div>
+              <div class="roleMeta">Apr 2017 – Dec 2018</div>
+            </div>
+            <ul class="list">
+              <li>Supported conservation operations, field activities, and reporting across wildlife and habitat programmes.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="h2">Education <span>tertiary</span></div>
+
+          <div class="role" style="margin-top:0;">
+            <div class="roleHead">
+              <div>
+                <div class="roleTitle">MSc Geographic Information Systems (GIS) &amp; Climate Change — <b>Chevening Scholar</b></div>
+                <div class="roleOrg">Swansea University, United Kingdom</div>
+              </div>
+              <div class="roleMeta">In progress</div>
+            </div>
+          </div>
+
+          <div class="role">
+            <div class="roleHead">
+              <div>
+                <div class="roleTitle">BSc (Hons) Forestry Resources &amp; Wildlife Management</div>
+                <div class="roleOrg">National University of Science and Technology (NUST), Zimbabwe</div>
+              </div>
+              <div class="roleMeta">2015 – 2019 • Upper Second Class (2.1)</div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="h2">Online Certifications <span>verifiable</span></div>
+          <ul class="list" style="margin-top:0;">
+            <li>
+              <a href="https://courses.edx.org/certificates/4ab04bb1ba814f878783b16f559c9cc3" target="_blank" rel="noopener">
+                Data Science &amp; Machine Learning — HarvardX
+              </a>
+            </li>
+            <li>
+              <a href="https://courses.edx.org/certificates/1eed8ca87a6a4f28b6c104291f75bb30" target="_blank" rel="noopener">
+                Statistics with R Programming — HarvardX
+              </a>
+            </li>
+            <li>
+              <a href="https://alison.com/verify/8057c0723a" target="_blank" rel="noopener">
+                Advanced Diploma in GIS — Alison
+              </a>
+            </li>
+            <li>
+              <a href="https://courses.edx.org/certificates/e0fda4dab94342d2b70b7a0aad28bf96" target="_blank" rel="noopener">
+                Artificial Intelligence with Python — HarvardX
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <div class="h2">Portfolio <span>all projects</span></div>
+
+          <div class="projects" role="list">
+            <div class="proj" role="listitem">
+              <h3>Complete Portfolio Website</h3>
+              <p>
+                Explore my full portfolio website featuring all projects in GIS, remote sensing, environmental analysis,
+                dashboards, data science, and interactive applications in one place.
+              </p>
+              <a href="https://kabila96.github.io/GeoAI-Portfolio/" target="_blank" rel="noopener">Open portfolio →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section">
+          <div class="h2">Core Skills <span>what I deliver</span></div>
+          <div class="skills" aria-label="skills">
+            <span class="skill">GIS &amp; Spatial Analysis</span>
+            <span class="skill">Remote Sensing</span>
+            <span class="skill">Environmental Impact Assessment</span>
+            <span class="skill">Monitoring &amp; Evaluation</span>
+            <span class="skill">Data Analytics (Python/R)</span>
+            <span class="skill">Machine Learning</span>
+            <span class="skill">Dashboards (Streamlit)</span>
+            <span class="skill">Data Visualization</span>
+            <span class="skill">Policy &amp; Reporting</span>
+            <span class="skill">Stakeholder Engagement</span>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="h2">Technical Toolkit <span>examples</span></div>
+          <ul class="list" style="margin-top:0;">
+            <li><b>Programming:</b> Python, R</li>
+            <li><b>Analytics:</b> statistics, regression, ML workflows</li>
+            <li><b>Mapping:</b> GIS cartography + spatial modelling</li>
+            <li><b>Reporting:</b> executive summaries &amp; technical reports</li>
+            <li><b>Office:</b> Word, PowerPoint, Excel, Outlook, Access</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <div class="h2">Languages <span>communication</span></div>
+          <ul class="list" style="margin-top:0;">
+            <li>English</li>
+            <li>Shona</li>
+            <li>Ndebele</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <div class="h2">Other <span>additional</span></div>
+          <ul class="list" style="margin-top:0;">
+            <li>Class 4 Driver’s License (obtained 8 Nov 2020)</li>
+            <li>References available on request</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Tip: Click “Print / Save as PDF” → choose “Save as PDF”. The print stylesheet is tuned to fit on one A4 page.
+    </div>
+  </div>
+
+  <script>
+    document.documentElement.style.scrollBehavior = "smooth";
+  </script>
+</body>
+</html>

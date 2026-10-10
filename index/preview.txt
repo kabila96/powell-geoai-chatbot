@@ -1,0 +1,711 @@
+===== [document] document:consultancy_information.docx | Overview (304 chars)
+Consultancy profile (Word document) > Overview
+Services, expertise and engagement information for prospective clients
+Transforming location, environmental and business data into practical intelligence
+GIS • Remote Sensing • Climate Analytics • GeoAI • Data Science • AI Automation • Professional Training
+
+===== [document] document:consultancy_information.docx | Purpose (488 chars)
+Consultancy profile (Word document) > Purpose
+This profile presents Powell Ndlovu’s consultancy services, qualifications, technical capabilities, delivery approach and contact information. It is designed for prospective clients and as a reliable knowledge source for a customer-facing chatbot. The consultancy combines geospatial intelligence, data analytics and responsible artificial intelligence to convert complex information into clear evidence, useful tools and practical decisions.
+
+===== [document] document:consultancy_information.docx | At a glance (646 chars)
+Consultancy profile (Word document) > At a glance
+Consultant: Powell Ndlovu
+Primary disciplines: GIS, remote sensing, climate analytics, data analysis, machine learning, GeoAI and AI automation
+Client types: Small businesses, larger organisations, NGOs, public institutions, researchers and professionals
+Core deliverables: Maps, spatial databases, dashboards, analytical reports, predictive models, AI agents, workflow automations and training
+Engagement model: Project-based consultancy, advisory support, training and selected ongoing technical support
+Document version: 5 October 2026
+Primary website: kabila96.github.io/powellndlovuportfolio
+
+===== [document] document:consultancy_information.docx | 1. Consultancy profile (915 chars)
+Consultancy profile (Word document) > 1. Consultancy profile
+Powell Ndlovu Geospatial Intelligence and AI Consultancy provides multidisciplinary services across Geographic Information Systems, remote sensing, climate analysis, data science, machine learning, artificial intelligence, AI prompt engineering and workflow automation. The consultancy supports organisations that need to understand where events are occurring, why patterns are changing, what risks or opportunities may emerge and how data can support better decisions.
+The practice connects scientific analysis with practical delivery. Services may range from a targeted map or dashboard to a wider solution that combines spatial databases, satellite imagery, statistical analysis, predictive modelling and AI-enabled automation. The emphasis is on outputs that are accurate, accessible, decision-ready and aligned with the client’s operational context.
+
+===== [document] document:consultancy_information.docx | 2. Founder and lead consultant (756 chars)
+Consultancy profile (Word document) > 2. Founder and lead consultant
+Powell Ndlovu is a GIS, remote sensing, climate and data professional whose work sits at the intersection of geospatial science, environmental analysis, data analytics and applied AI. He combines technical analysis with visual communication, stakeholder engagement and training so that complex results can be understood and used by both technical and non-technical audiences.
+His experience includes producing maps and spatial datasets, analysing satellite and environmental data, building dashboards, developing reproducible Python and R workflows, supporting monitoring and evaluation, contributing to research-oriented work and helping organisations communicate evidence more clearly.
+
+===== [document] document:consultancy_information.docx | 3. Qualifications and professional development (757 chars)
+Consultancy profile (Word document) > 3. Qualifications and professional development
+Postgraduate study: MSc candidate in GIS and Climate Change at Swansea University.
+Scholarship: Chevening Scholar, 2025/26 cohort.
+Academic foundation: Geography and environmental sciences, with emphasis on spatial analysis, environmental systems, research and evidence-based planning.
+Continuing professional development: Online and professional learning in AI agents, prompt engineering, machine learning, data science, neural networks and deep learning through edX and recognised education partners.
+For accuracy and transparency, professional online courses are presented as continuing professional development and are not represented as additional university degrees.
+
+===== [document] document:consultancy_information.docx | 4. Mission and value proposition (664 chars)
+Consultancy profile (Word document) > 4. Mission and value proposition
+The consultancy helps clients move from raw data to confident action by integrating location intelligence, environmental evidence, statistical analysis and AI-enabled workflows.
+- Turn complex spatial, environmental and operational data into clear evidence.
+- Design practical digital tools that improve planning, reporting and decision-making.
+- Use automation to reduce repetitive work and improve consistency.
+- Strengthen client capability through documentation, training and knowledge transfer.
+- Apply responsible AI with appropriate human review, privacy awareness and quality controls.
+
+===== [document] document:consultancy_information.docx | 5. Core consultancy services (1238 chars)
+Consultancy profile (Word document) > 5. Core consultancy services
+5.1 GIS and spatial analysis:
+GIS services help clients understand spatial relationships, manage location-based information and present evidence through maps and geospatial products.
+- Data capture, cleaning, integration, georeferencing and validation
+- Spatial databases, geodatabases and geospatial data management
+- Suitability, proximity, accessibility, overlay, network and multi-criteria analysis
+- Thematic cartography and publication-ready map production
+- ArcGIS Online, ArcGIS Experience Builder and web mapping solutions
+- ArcGIS Dashboards for operational monitoring and decision support
+- QGIS workflow development and open-source geospatial analysis
+5.2 Remote sensing and Earth observation:
+Remote sensing services use satellite, aerial or drone-derived information to monitor land, water, vegetation, infrastructure and environmental change.
+- Satellite imagery acquisition, preprocessing and quality assessment
+- Image classification and feature extraction
+- Land-use and land-cover mapping
+- Vegetation, water, soil and built-up area indices
+- Change detection and time-series analysis
+- Environmental degradation, drought, flood and wildfire assessment
+
+===== [document] document:consultancy_information.docx | 5. Core consultancy services (1250 chars)
+Consultancy profile (Word document) > 5. Core consultancy services
+- Change detection and time-series analysis
+- Environmental degradation, drought, flood and wildfire assessment
+- Agricultural and ecosystem monitoring
+5.3 Climate change and environmental intelligence:
+Climate services combine spatial and statistical methods to help clients understand hazards, exposure, vulnerability and long-term environmental change.
+- Climate-data processing, mapping and interpretation
+- Temperature and rainfall trend analysis
+- Hazard, exposure, vulnerability and risk assessment
+- Climate-risk mapping and adaptation decision support
+- Environmental monitoring and evidence for resilience planning
+- Visual communication of complex climate information
+5.4 Data analysis and business intelligence:
+Data services convert structured and unstructured information into understandable findings, interactive tools and decision-ready reporting.
+- Data cleaning, validation, transformation and exploratory analysis
+- Statistical analysis and reproducible workflows
+- KPI design, trend analysis and management reporting
+- Interactive dashboards and automated visual reporting
+- Monitoring and evaluation support
+- Python and R programming for analysis and automation
+
+===== [document] document:consultancy_information.docx | 5. Core consultancy services (1205 chars)
+Consultancy profile (Word document) > 5. Core consultancy services
+- Monitoring and evaluation support
+- Python and R programming for analysis and automation
+5.5 GeoAI, machine learning and predictive modelling:
+GeoAI and machine learning services apply computational methods to geospatial and business data where prediction, classification or pattern detection can create value.
+- Predictive and classification model development
+- Spatial machine learning and feature engineering
+- Environmental and climate-risk modelling
+- Automated image classification and feature detection
+- Model evaluation, validation and interpretation
+- Prototype development for intelligent geospatial applications
+5.6 AI automation and intelligent agents:
+AI automation services help organisations reduce repetitive work, improve access to information and create more responsive digital workflows.
+- Customer-service and website chatbots
+- Retrieval-based assistants grounded in approved organisational documents
+- AI agents for internal knowledge access and workflow support
+- Automated report drafting, document processing and information summarisation
+- Integration of AI tools with websites, dashboards, databases and APIs
+
+===== [document] document:consultancy_information.docx | 5. Core consultancy services (730 chars)
+Consultancy profile (Word document) > 5. Core consultancy services
+- Automated report drafting, document processing and information summarisation
+- Integration of AI tools with websites, dashboards, databases and APIs
+- Prompt design, evaluation, guardrails and human-review procedures
+- Solutions scaled for both smaller businesses and larger organisations
+5.7 AI prompt engineering:
+Prompt engineering services improve the clarity, reliability and repeatability of AI-assisted tasks.
+- Prompt libraries and reusable prompt templates
+- Role, context, constraint and output-format design
+- Prompt testing, evaluation and refinement
+- Knowledge-grounded assistant instructions
+- Responsible-use guidance and hallucination reduction
+
+===== [document] document:consultancy_information.docx | 6. Technical competencies and tools (881 chars)
+Consultancy profile (Word document) > 6. Technical competencies and tools
+Capability area: Tools and methods
+GIS and mapping: ArcGIS Pro, ArcGIS Online, ArcGIS Dashboards, Experience Builder, QGIS, web mapping and cartographic design
+Remote sensing: Google Earth Engine, satellite image processing, raster analysis, classification, indices, change detection and time series
+Data analysis: Python, R, pandas, GeoPandas, NumPy, scikit-learn, statistical analysis and reproducible workflows
+Visualisation and reporting: Power BI, ArcGIS Dashboards, interactive charts, maps, infographics and executive reporting
+AI and automation: Large language models, retrieval-augmented assistants, AI agents, prompt engineering, APIs and workflow integration
+Delivery and collaboration: Requirements analysis, quality assurance, documentation, stakeholder communication, facilitation and training
+
+===== [document] document:consultancy_information.docx | 7. Selected areas of professional experience (1020 chars)
+Consultancy profile (Word document) > 7. Selected areas of professional experience
+Powell’s professional and project experience spans research, consultancy, data analysis, geospatial production, environmental assessment, reporting and capacity development. Depending on the engagement, he may work independently or collaborate with client teams and subject-matter specialists.
+- GIS mapping, spatial database preparation and geospatial quality control
+- Remote-sensing analysis for land, vegetation, water and environmental monitoring
+- Climate and hazard analysis for planning, resilience and adaptation
+- Data cleaning, statistical analysis and insight generation
+- Dashboard development and visual storytelling for decision-makers
+- Research support, technical writing and analytical reporting
+- Stakeholder consultation, requirements gathering and presentation of findings
+- Training, mentoring and development of practical learning materials
+- Prototype development for AI-enabled assistants and automated workflows
+
+===== [document] document:consultancy_information.docx | 8. Training and online learning services (997 chars)
+Consultancy profile (Word document) > 8. Training and online learning services
+The consultancy offers practical online courses, customised workshops and mentoring for individuals, organisations and project teams. Training can be adapted for beginners, intermediate learners or professionals who need a focused workflow for a specific task.
+- Introduction to GIS and spatial thinking
+- Practical QGIS and ArcGIS workflows
+- Remote sensing and Google Earth Engine
+- Python and R for data analysis
+- Data visualisation and dashboard design
+- Climate and environmental data analysis
+- GeoAI and machine-learning foundations
+- AI prompt engineering for professional work
+- Building responsible chatbots, AI agents and workflow automations
+- Training for the whole course costs $ 200
+- Training for specific project costs $ 50
+Training delivery may include live sessions, guided exercises, demonstration datasets, practical assignments, recordings where agreed, supporting notes and follow-up mentoring.
+
+===== [document] document:consultancy_information.docx | 9. Clients and sectors served (468 chars)
+Consultancy profile (Word document) > 9. Clients and sectors served
+- Small and medium-sized businesses
+- Larger organisations and corporate teams
+- Government departments and local authorities
+- Non-governmental organisations and development programmes
+- Environmental, climate and conservation initiatives
+- Agriculture and natural-resource projects
+- Researchers, students and academic teams
+- Consultancies requiring specialist geospatial, analytical or AI support
+
+===== [document] document:consultancy_information.docx | 10. Typical deliverables (657 chars)
+Consultancy profile (Word document) > 10. Typical deliverables
+- Professional maps and digital geospatial datasets
+- Spatial databases and documented GIS workflows
+- ArcGIS or Power BI dashboards
+- Remote-sensing products and change-analysis reports
+- Climate-risk, environmental or suitability assessments
+- Statistical analyses, scripts and reproducible notebooks
+- Machine-learning models and evaluation summaries
+- Website chatbots, retrieval-based assistants and AI agents
+- Automation workflows and prompt libraries
+- Technical reports, executive summaries and presentations
+- Training materials, exercises and recorded learning resources where agreed
+
+===== [document] document:consultancy_information.docx | 11. Delivery approach (801 chars)
+Consultancy profile (Word document) > 11. Delivery approach
+- Discovery and scoping: Clarify the client’s decision, users, available data, constraints, desired outputs and definition of success.
+- Data and systems assessment: Review data quality, formats, access, privacy, existing tools and integration requirements.
+- Solution design: Select methods, platforms, deliverables, milestones, validation steps and responsibilities.
+- Development and analysis: Build the agreed maps, models, dashboards, automations, agents, reports or training resources.
+- Quality assurance: Check accuracy, reproducibility, usability, limitations and alignment with the agreed scope.
+- Handover and knowledge transfer: Deliver outputs with appropriate documentation, explanation, training and next-step recommendations.
+
+===== [document] document:consultancy_information.docx | 12. Quality, ethics and responsible AI (739 chars)
+Consultancy profile (Word document) > 12. Quality, ethics and responsible AI
+Quality and responsible practice are embedded throughout delivery. The exact controls depend on the assignment, but the following principles guide the consultancy’s work.
+- Use appropriate data sources and document important assumptions.
+- Validate analytical outputs and communicate uncertainty and limitations.
+- Protect confidential information and apply sensible access controls.
+- Use human review for consequential AI-generated outputs.
+- Avoid presenting AI responses as verified facts when evidence is unavailable.
+- Design solutions that the client can understand, govern and maintain.
+- Provide reproducible methods and documentation where appropriate.
+
+===== [document] document:consultancy_information.docx | 13. Why work with Powell (582 chars)
+Consultancy profile (Word document) > 13. Why work with Powell
+- A multidisciplinary combination of GIS, remote sensing, climate science, data analysis and AI
+- Strong technical capability supported by clear communication and visual storytelling
+- Solutions tailored to the client’s real decisions, users and resources
+- Experience translating complex evidence for both technical and non-technical audiences
+- Flexible support for small assignments, training needs and larger multi-stage projects
+- An emphasis on responsible AI, transparent methods and practical knowledge transfer
+
+===== [document] document:consultancy_information.docx | 14. Engagement options (504 chars)
+Consultancy profile (Word document) > 14. Engagement options
+- One-off technical assignments
+- Short advisory or diagnostic consultations
+- Multi-stage consultancy projects
+- Custom dashboard, chatbot or AI-agent development
+- Training, workshops and mentoring
+- Selected ongoing analytical or automation support
+- Collaborative research, environmental and development projects
+Fees, timelines and exact deliverables are agreed after the requirements, data, scope and desired outcomes have been reviewed.
+
+===== [document] document:consultancy_information.docx | 15. Frequently asked questions (1254 chars)
+Consultancy profile (Word document) > 15. Frequently asked questions
+What does the consultancy specialise in?
+The core specialisms are GIS, remote sensing, climate and environmental analysis, data analytics, machine learning, GeoAI, AI prompt engineering, AI agents and workflow automation.
+Can Powell work with a small business?
+Yes. Services can be scoped for smaller businesses as well as larger organisations. The solution is adapted to the client’s needs, available data, budget and technical capacity.
+Can the consultancy build dashboards and web maps?
+Yes. Available services include ArcGIS Dashboards, ArcGIS Online solutions, Experience Builder applications, web maps, Power BI dashboards and supporting spatial databases.
+Can Powell build an AI chatbot or agent?
+Yes. The consultancy can design customer-service chatbots, document-grounded assistants, internal knowledge agents and automated workflows, including integration with websites, databases or approved APIs where feasible.
+Does the consultancy offer training?
+Yes. Online courses, customised workshops and mentoring are available across GIS, remote sensing, data analysis, climate analytics, GeoAI, prompt engineering and AI automation.
+How are project costs and timelines determined?
+
+===== [document] document:consultancy_information.docx | 15. Frequently asked questions (473 chars)
+Consultancy profile (Word document) > 15. Frequently asked questions
+Yes. Online courses, customised workshops and mentoring are available across GIS, remote sensing, data analysis, climate analytics, GeoAI, prompt engineering and AI automation.
+How are project costs and timelines determined?
+Pricing and delivery dates depend on the scope, data readiness, integrations, complexity and outputs. A consultation is used to confirm requirements before a proposal is prepared.
+
+===== [document] document:consultancy_information.docx | 16. Contact and portfolio links (553 chars)
+Consultancy profile (Word document) > 16. Contact and portfolio links
+For project enquiries, consulting opportunities, training requests or collaboration, contact Powell Ndlovu using the details below.
+Telephone: +263 77 600 6388 / +263 77 148 0011 / +44 7352 140847
+Email: powellndlovu@gmail.com / powellndlovu@yahoo.com
+Main portfolio: https://kabila96.github.io/powellndlovuportfolio/
+Online CV: https://kabila96.github.io/online-cv-resume/
+GeoAI portfolio: https://kabila96.github.io/GeoAI-Portfolio/
+LinkedIn: https://linkedin.com/in/powellndlovu96
+
+===== [document] document:consultancy_information.docx | 17. Chatbot knowledge guidance (941 chars)
+Consultancy profile (Word document) > 17. Chatbot knowledge guidance
+This section is intended to help an authorised chatbot use the profile accurately when answering customer questions.
+- Describe Powell as an MSc candidate in GIS and Climate Change at Swansea University and a Chevening Scholar in the 2025/26 cohort.
+- Describe online AI, machine-learning and data-science courses as continuing professional development, not as additional university degrees.
+- Use only the services, tools, experience and contact details stated in this profile or on the approved portfolio websites.
+- Do not invent client names, certifications, prices, project outcomes, availability or delivery dates.
+- When pricing, schedules or an unlisted requirement is requested, invite the customer to contact Powell for a scoped consultation.
+- For higher-risk or consequential decisions, explain that outputs require appropriate human and subject-matter review.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Powell Ndlovu (95 chars)
+Main portfolio website > Powell Ndlovu
+- Home
+- Services
+- Projects
+- About
+- Contact
+Portfolio
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Services (541 chars)
+Main portfolio website > Services
+We offer Data Analysis to transform raw data into actionable insights, Machine Learning Solutions using Python and R for predictive modeling, and GIS Expertise for advanced spatial analysis and mapping. Our Environmental Impact Assessment and Management ensures sustainable project planning, and our Website Design services create visually appealing, functional, and user-friendly websites. Combining innovation and precision, we deliver tailored solutions for ecological, business, and environmental needs.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Web Design (148 chars)
+Main portfolio website > Web Design
+We create modern, visually appealing, and user-friendly websites tailored to meet your specific needs and goals.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Data Science and Machine Learning (161 chars)
+Main portfolio website > Data Science and Machine Learning
+We deliver advanced Data Science and Machine Learning solution for businesses and research excellence.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | GIS Mapping and Spatial Analysis (160 chars)
+Main portfolio website > GIS Mapping and Spatial Analysis
+We provide comprehensive GIS Mapping services for students and environmental management professionals.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | E I A & Consultation (146 chars)
+Main portfolio website > E I A & Consultation
+We offer professional EIA services to assess and mitigate potential environmental risks effectively.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Supervised Machine Learning GEE (600 chars)
+Main portfolio website > Supervised Machine Learning GEE
+We specialize in Land Cover Classification projects utilizing Supervised Classification techniques in Google Earth Engine (GEE). This approach allows for accurate identification and mapping of various land cover types using satellite imagery. Our process includes data preprocessing, training sample selection, and classification model development to ensure high-precision results. These insights are invaluable for environmental management, urban planning, and ecological research. Let us help you harness GEE’s capabilities for your project!
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Transforming Data into Actionable Intelligence Across Industries (722 chars)
+Main portfolio website > Transforming Data into Actionable Intelligence Across Industries
+Our Machine Learning Prediction System leverages advanced and robust algorithms to forecast outcomes based on diverse business, environmental, geographic, and climate-related datasets. Built on historical data and real-world variables, this solution empowers businesses, policy makers, and researchers to make informed, strategic decisions. From optimizing resource allocation and managing risk to supporting evidence-based planning and innovation, our predictive models offer scalable, data-driven insights that drive efficiency, sustainability, and impact across sectors. Let us help you turn complex data into smarter strategies.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Using XGBoost Algorithm (500 chars)
+Main portfolio website > Using XGBoost Algorithm
+Our Time Forecast Analysis project utilizes the XGBoost Algorithm to predict future trends based on historical time-series data. XGBoost's powerful boosting technique helps improve accuracy and performance, making it ideal for forecasting in various industries such as finance, sales, and weather. By leveraging this advanced machine learning approach, we deliver highly accurate predictions that empower better strategic planning and decision-making.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Using Google Earth Engine (GEE) and QGIS (768 chars)
+Main portfolio website > Using Google Earth Engine (GEE) and QGIS
+Our EVI and NDVI Mapping project utilizes Google Earth Engine (GEE) and QGIS to analyze and visualize vegetation health over large geographic areas. By processing satellite imagery, we calculate the Enhanced Vegetation Index (EVI), which provides valuable insights into plant growth, agricultural productivity, identify early signs of disease, nutrient deficiencies, or drought stress. This powerful tool allows for accurate, timely monitoring of large-scale farmlands efficiently, ensuring optimal resource management, environmental management, climate studies, vegetation productivity and land use planning. Let us help you monitor and assess vegetation health using the capabilities of GEE and QGIS.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Data Insights (606 chars)
+Main portfolio website > Data Insights
+We specialize in creating clear, insightful Data Visualizations that transform complex datasets into easily understandable and actionable information. Using advanced tools and techniques, we design interactive and static charts, graphs, and dashboards that help you visualize trends, patterns, and relationships. Whether for business intelligence, research analysis, or decision-making, our visualizations bring your data to life and enable informed, data-driven decisions. Let us help you make sense of your data with impactful visual representations.
+View My Resume
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Environmentalist, Data and GIS Analyst (800 chars)
+Main portfolio website > Environmentalist, Data and GIS Analyst
+Dedicated to transforming data into actionable insights and solutions. With a strong background in Data Science, Machine Learning, GIS, and Environmental Consulting, we specialize in providing tailored services to businesses, researchers, and environmental professionals. Our team leverages advanced technologies and methodologies to deliver accurate, innovative solutions that drive informed decision-making, promote sustainability, and enhance operational efficiency. Whether it’s analyzing data, predicting trends, mapping environments, or ensuring regulatory compliance, we are committed to supporting your success through precision and expertise. Let us help you turn your challenges into opportunities with data-driven strategies.
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Your Complete Web Solution (96 chars)
+Main portfolio website > Your Complete Web Solution
+Copyright © 2024 Powell. All rights reserved
+
+===== [website] https://kabila96.github.io/powellndlovuportfolio/ | Links on this page (589 chars)
+Main portfolio website > Links on this page
+- Powell Ndlovu: https://kabila96.github.io/powellndlovuportfolio/#hero
+- Home: https://kabila96.github.io/powellndlovuportfolio/#hero
+- Services: https://kabila96.github.io/powellndlovuportfolio/#services
+- Projects: https://kabila96.github.io/powellndlovuportfolio/#projects
+- About: https://kabila96.github.io/powellndlovuportfolio/#about
+- Contact: https://kabila96.github.io/powellndlovuportfolio/#contact
+- Portfolio: https://kabila96.github.io/powellndlovuportfolio/#projects
+- View My Resume: https://kabila96.github.io/online-cv-resume/
+
+===== [website] https://kabila96.github.io/online-cv-resume/ | Introduction (290 chars)
+Online CV > Introduction
+Open to roles: GIS • Remote Sensing • Data Science • Environmental Planning
+✉️ Email in LinkedIn 🌐 Website
+Powell Andile Ndlovu
+GIS • Remote Sensing • Data Science • Environmental Planning | powellndlovu@gmail.com | +263 77 6006 388 | linkedin.com/in/powellndlovu96
+
+===== [website] https://kabila96.github.io/online-cv-resume/ | Powell Andile Ndlovu (895 chars)
+Online CV > Powell Andile Ndlovu
+Environmental Planning and Management professional with strong expertise in GIS, Remote Sensing, and Data Science. I specialise in transforming environmental and socioeconomic data into decision-ready insights through spatial analysis, remote sensing workflows, statistical modelling, and interactive dashboards. My work focuses on supporting planning, monitoring, compliance, and sustainable development through clear evidence, strong technical execution, and communication that serves both technical and policy audiences.
+Chevening Scholar (MSc GIS & Climate Change) GIS • Remote Sensing • Spatial Analytics Python • R • ML • Dashboards Monitoring & Evaluation
+Location
+210 Hebron, Plumtree, Zimbabwe
+Phone
++263 77 6006 388 • +263 77 14800 11
+Email
+powellndlovu@gmail.com • powellndlovu@yahoo.com
+Portfolio
+Website Portfolio
+Professional Summary impact-focused
+
+===== [website] https://kabila96.github.io/online-cv-resume/ | Powell Andile Ndlovu (1151 chars)
+Online CV > Powell Andile Ndlovu
+Website Portfolio
+Professional Summary impact-focused
+I work at the intersection of environmental management, geospatial analysis, and data science—supporting planning, compliance, monitoring, and sustainable development. My strengths include spatial analytics, remote sensing, statistical modelling, dashboarding, and communicating results clearly to both technical and non-technical stakeholders.
+Work Experience selected
+Environmental Planning & Management Officer
+Office of the Minister of State for Provincial Affairs and Devolution — Matabeleland South, Zimbabwe
+Current
+- Analyse environmental impacts of development projects; ensure regulatory compliance and quality reporting.
+- Prepare recommendations for management and agencies; support feasibility studies for sensitive ecosystems.
+- Coordinate stakeholder engagement, monitoring and community outreach aligned with EMA guidelines.
+Forester (Kazuma)
+Forestry Commission — Ministry of Environment, Climate, Tourism and Hospitality
+May 2022 – Jul 2023
+- Implemented forestry management plans and budgets; led fire pre-suppression and suppression operations.
+
+===== [website] https://kabila96.github.io/online-cv-resume/ | Powell Andile Ndlovu (1013 chars)
+Online CV > Powell Andile Ndlovu
+May 2022 – Jul 2023
+- Implemented forestry management plans and budgets; led fire pre-suppression and suppression operations.
+- Supported KAZA corridor conservation activities with IUCN donor alignment and reporting.
+Intern (Industrial Attachment)
+Zambezi Elephant Conservation Trust — Jafuta, Victoria Falls
+Apr 2017 – Dec 2018
+- Supported conservation operations, field activities, and reporting across wildlife and habitat programmes.
+Education tertiary
+MSc Geographic Information Systems (GIS) & Climate Change — Chevening Scholar
+Swansea University, United Kingdom
+In progress
+BSc (Hons) Forestry Resources & Wildlife Management
+National University of Science and Technology (NUST), Zimbabwe
+2015 – 2019 • Upper Second Class (2.1)
+Online Certifications verifiable
+- Data Science & Machine Learning — HarvardX
+- Statistics with R Programming — HarvardX
+- Advanced Diploma in GIS — Alison
+- Artificial Intelligence with Python — HarvardX
+Portfolio all projects
+Open portfolio →
+
+===== [website] https://kabila96.github.io/online-cv-resume/ | Complete Portfolio Website (975 chars)
+Online CV > Complete Portfolio Website
+Explore my full portfolio website featuring all projects in GIS, remote sensing, environmental analysis, dashboards, data science, and interactive applications in one place.
+Core Skills what I deliver
+GIS & Spatial Analysis Remote Sensing Environmental Impact Assessment Monitoring & Evaluation Data Analytics (Python/R) Machine Learning Dashboards (Streamlit) Data Visualization Policy & Reporting Stakeholder Engagement
+Technical Toolkit examples
+- Programming: Python, R
+- Analytics: statistics, regression, ML workflows
+- Mapping: GIS cartography + spatial modelling
+- Reporting: executive summaries & technical reports
+- Office: Word, PowerPoint, Excel, Outlook, Access
+Languages communication
+- English
+- Shona
+- Ndebele
+Other additional
+- Class 4 Driver’s License (obtained 8 Nov 2020)
+- References available on request
+Tip: Click “Print / Save as PDF” → choose “Save as PDF”. The print stylesheet is tuned to fit on one A4 page.
+
+===== [website] https://kabila96.github.io/online-cv-resume/ | Links on this page (770 chars)
+Online CV > Links on this page
+- in LinkedIn: https://linkedin.com/in/powellndlovu96
+- 🌐 Website: https://kabila96.github.io/portfolio-website/
+- linkedin.com/in/powellndlovu96: https://linkedin.com/in/powellndlovu96
+- Website Portfolio: https://kabila96.github.io/portfolio-website/
+- Data Science & Machine Learning — HarvardX: https://courses.edx.org/certificates/4ab04bb1ba814f878783b16f559c9cc3
+- Statistics with R Programming — HarvardX: https://courses.edx.org/certificates/1eed8ca87a6a4f28b6c104291f75bb30
+- Advanced Diploma in GIS — Alison: https://alison.com/verify/8057c0723a
+- Artificial Intelligence with Python — HarvardX: https://courses.edx.org/certificates/e0fda4dab94342d2b70b7a0aad28bf96
+- Open portfolio →: https://kabila96.github.io/GeoAI-Portfolio/
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Introduction (133 chars)
+GeoAI portfolio website > Introduction
+Powell Andile Ndlovu GeoAI Specialist | GIS, Remote Sensing & Machine Learning
+GeoAI Portfolio
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Turning spatial, environmental, and business data into decision intelligence. (395 chars)
+GeoAI portfolio website > Turning spatial, environmental, and business data into decision intelligence.
+GeoAI Specialist | GIS, Remote Sensing & Machine Learning
+I design analytical systems that combine geospatial intelligence, environmental modelling, and machine learning to reveal patterns, quantify risk, and support better strategic decisions.
+View Portfolio Contact GitHub
+Core Positioning
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Analytics built for real-world decisions (385 chars)
+GeoAI portfolio website > Analytics built for real-world decisions
+This portfolio is structured around operational insight, predictive systems, and spatial intelligence.
+Live portfolio dashboards
+Core capability pillars
+GIS
+Spatial decision systems
+Predictive intelligence workflows
+Tools & Stack
+Python R QGIS Remote Sensing Google Earth Engine Streamlit Plotly Machine Learning
+About
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Built at the intersection of geospatial intelligence, AI, and decision support. (354 chars)
+GeoAI portfolio website > Built at the intersection of geospatial intelligence, AI, and decision support.
+My work focuses on transforming raw environmental, spatial, and operational data into interpretable systems that decision-makers can actually use. The emphasis is not on visuals for their own sake. It is on evidence, action, and measurable insight.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Geospatial analytics (151 chars)
+GeoAI portfolio website > Geospatial analytics
+Spatial analysis frameworks for urban systems, environmental monitoring, and socioeconomic intelligence.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Machine learning (134 chars)
+GeoAI portfolio website > Machine learning
+Predictive models that move from descriptive reporting to forward-looking decision support.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Executive dashboards (173 chars)
+GeoAI portfolio website > Executive dashboards
+Clean, story-driven analytics interfaces designed for leadership, operations, and technical stakeholders.
+Operating Principles
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Analytical clarity (127 chars)
+GeoAI portfolio website > Analytical clarity
+Every solution is designed to simplify complexity without hiding important detail.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Business relevance (136 chars)
+GeoAI portfolio website > Business relevance
+Insight only matters when it improves planning, targeting, prioritization, or risk control.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | System thinking (141 chars)
+GeoAI portfolio website > System thinking
+Strong analytics connect environmental patterns, human systems, and operational outcomes.
+Portfolio
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Live analytical systems built for environmental, business, and operational intelligence. (286 chars)
+GeoAI portfolio website > Live analytical systems built for environmental, business, and operational intelligence.
+Each portfolio item is framed as a decision-support product. The structure highlights the problem, the insight, and the applied analytics stack behind it.
+Retail Analytics
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Retail Sales Analysis (319 chars)
+GeoAI portfolio website > Retail Sales Analysis
+A sales intelligence interface designed to surface revenue patterns, product performance, and commercially relevant trends from retail transaction data.
+Business IntelligenceStreamlitPython
+Problem solved: retail performance visibility View Live Dashboard
+Water Chemistry
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Bosherston Lily Ponds Water Chemistry Assessment (349 chars)
+GeoAI portfolio website > Bosherston Lily Ponds Water Chemistry Assessment
+An environmental data analysis dashboard developed to interpret water chemistry patterns and support evidence-based ecological monitoring.
+Environmental DataMonitoringAnalytics
+Problem solved: environmental condition assessment View Live Dashboard
+Spatial Crime Intelligence
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Spatial Inequalities, Socioeconomic Deprivation, and Drug-Related Crime Patterns Across Wales (388 chars)
+GeoAI portfolio website > Spatial Inequalities, Socioeconomic Deprivation, and Drug-Related Crime Patterns Across Wales
+A GIS and statistical intelligence system mapping the relationship between deprivation and drug-related crime at MSOA level across Wales.
+GISSpatial StatisticsMSOA Analysis
+Problem solved: spatial risk pattern identification View Live Dashboard
+Urban Heat Intelligence
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | SpatioTemporal Dynamics of UHI in Greater London (2018–2025) (360 chars)
+GeoAI portfolio website > SpatioTemporal Dynamics of UHI in Greater London (2018–2025)
+A geospatial heat-risk dashboard examining urban heat island dynamics across Greater London to support climate resilience and urban planning.
+Remote SensingClimate AnalyticsGeoAI
+Problem solved: urban heat exposure intelligence View Live Dashboard
+Agricultural Intelligence
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Crop Yield Assessment Dashboard (310 chars)
+GeoAI portfolio website > Crop Yield Assessment Dashboard
+An applied dashboard for exploring crop yield trends, assessing agricultural performance, and extracting actionable farm-level insights.
+AgricultureData AnalysisDashboard
+Problem solved: crop performance evaluation View Live Dashboard
+Quality Analytics
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Wine Quality Assessment (317 chars)
+GeoAI portfolio website > Wine Quality Assessment
+A data-driven quality intelligence system used to evaluate patterns in wine quality and identify the variables driving performance outcomes.
+Classification InsightPythonAnalytics
+Problem solved: quality driver interpretation View Live Dashboard
+Predictive Agriculture
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Elite Crop Yield Prediction App (293 chars)
+GeoAI portfolio website > Elite Crop Yield Prediction App
+A predictive agriculture dashboard built to estimate crop yield outcomes and support more data-driven planning decisions.
+Machine LearningPredictionAgritech
+Problem solved: yield forecasting support View Live Dashboard
+Decision Support
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Crop Recommendation (297 chars)
+GeoAI portfolio website > Crop Recommendation
+A recommendation engine that aligns agricultural inputs and environmental conditions with suitable crop selection decisions.
+Recommendation SystemAgricultureML
+Problem solved: crop selection optimization View Live Dashboard
+Sustainability Intelligence
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Food Sustainability Decision Dashboard (323 chars)
+GeoAI portfolio website > Food Sustainability Decision Dashboard
+A decision-oriented dashboard exploring the environmental implications of food choices and sustainability-related trade-offs.
+SustainabilityDecision SupportAnalytics
+Problem solved: sustainability trade-off analysis View Live Dashboard
+Commercial Performance
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Retail Intelligence Dashboards (314 chars)
+GeoAI portfolio website > Retail Intelligence Dashboards
+A dashboard suite focused on revenue drivers, customer-facing performance, and operational insights for retail decision-makers.
+Retail BIDecision IntelligenceOperations
+Problem solved: commercial monitoring and action View Live Dashboard
+Profit Intelligence
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Supermarket Branch Profit Intelligence Dashboard (340 chars)
+GeoAI portfolio website > Supermarket Branch Profit Intelligence Dashboard
+A branch-level decision system designed to track profitability patterns, compare store performance, and expose operational pressure points.
+Profit AnalysisBranch PerformanceDashboard
+Problem solved: store-level profit visibility View Live Dashboard
+People Analytics
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | HR Executive Intelligence Dashboard (358 chars)
+GeoAI portfolio website > HR Executive Intelligence Dashboard
+A leadership-focused people analytics dashboard highlighting attrition risk, workforce pressure points, and practical intervention priorities.
+HR AnalyticsExecutive DashboardWorkforce Insight
+Problem solved: executive workforce decision support View Live Dashboard
+ZIMBABWE FAOSTAS FOOD Analytics
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Zimbabwe Agricultural Intelligence Dashboard (450 chars)
+GeoAI portfolio website > Zimbabwe Agricultural Intelligence Dashboard
+A decision-focused analytics platform uncovering crop yield dynamics, production stability, and climate-linked variability across Zimbabwe’s agricultural systems.
+Agricultural Yield IntelligenceExecutive DashboardCrop Performance Insights
+Problem solved: data-driven agricultural decision support under climate variability View Live Dashboard
+Kazuma Forest Ecosystem Intelligence
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Multi-Index Time Series Dashboard (424 chars)
+GeoAI portfolio website > Multi-Index Time Series Dashboard
+Problem solved: monitoring ecosystem health, stress patterns, and disturbance dynamics using remote sensing
+Multi-Index Time Series DashboardNDVI, NDMI & NBR DynamicsVegetation Health & Disturbance Insights
+Problem solved: tracking ecosystem resilience and identifying early warning signals of degradation View Live Dashboard
+Southern Africa FAOSTAS FOOD Analytics
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | FAOSTAT Southern Africa Yield Intelligence Dashboard (267 chars)
+GeoAI portfolio website > FAOSTAT Southern Africa Yield Intelligence Dashboard
+Problem solved: executive-grade agricultural decision support under climate variability and uneven data reliability across Southern Africa View Live Dashboard
+AI Health Screening Analytics
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Heart Disease Screening & Risk Interpretation App (551 chars)
+GeoAI portfolio website > Heart Disease Screening & Risk Interpretation App
+A decision-focused screening application designed to identify potential heart disease risk from BRFSS health indicators using XGBoost, threshold optimisation, and SHAP-based explainability for transparent public health decision support.
+Predictive Health Analytics Streamlit App Explainable AI
+Problem solved: interpretable early-risk screening for heart disease in imbalanced health data using machine learning and explainable AI View Live App
+Telecom Retention Intelligence
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Telecom Churn Screening & Retention Intelligence Dashboard (574 chars)
+GeoAI portfolio website > Telecom Churn Screening & Retention Intelligence Dashboard
+A leadership-focused analytics and machine learning platform built to detect churn risk early, reveal the drivers of customer loss, and prioritize high-value retention actions under budget constraints.
+Predictive Customer Analytics Explainable AI Dashboard Retention ROI Strategy
+Problem solved: transforming churn prediction into decision-ready retention strategy through risk scoring, SHAP-based explanation, and ROI-led customer targeting View Live Dashboard
+Bank Marketing Intelligence
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Thera Bank Personal Loan Targeting & Marketing Intelligence Dashboard (613 chars)
+GeoAI portfolio website > Thera Bank Personal Loan Targeting & Marketing Intelligence Dashboard
+A decision-focused analytics and machine learning platform built to identify high-probability personal loan customers, explain targeting logic, and optimize campaign action through profit-aware customer ranking.
+Predictive Banking Analytics Explainable ML Dashboard Campaign ROI Strategy
+Problem solved: transforming personal loan propensity modelling into decision-ready marketing strategy through probability scoring, explainability, lift and gain analysis, and ROI-led customer targeting View Live Dashboard
+Skills
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Geospatial Intelligence (206 chars)
+GeoAI portfolio website > Geospatial Intelligence
+GIS, remote sensing, spatial modelling, map-based analytics, and geostatistical interpretation for location-aware decisions.
+QGISSpatial AnalysisCartography
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Data Science & ML (185 chars)
+GeoAI portfolio website > Data Science & ML
+Predictive modelling, statistical analysis, data cleaning, feature exploration, and practical machine learning workflows.
+PythonRScikit-learn
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Dashboard Engineering (197 chars)
+GeoAI portfolio website > Dashboard Engineering
+Interactive decision dashboards that convert raw analysis into interfaces suitable for technical and executive audiences.
+StreamlitPlotlyStorytelling
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Business & Environmental Insight (228 chars)
+GeoAI portfolio website > Business & Environmental Insight
+Applied analytics for retail, sustainability, agriculture, environmental monitoring, and public-interest decision systems.
+ForecastingRisk InsightDecision Support
+Impact
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | What these systems help organizations do. (208 chars)
+GeoAI portfolio website > What these systems help organizations do.
+The real test of analytical work is not whether the charts look impressive. It is whether they improve planning, prioritization, and action.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Expose hidden spatial and operational patterns (206 chars)
+GeoAI portfolio website > Expose hidden spatial and operational patterns
+Reveal location-based inequalities, environmental hotspots, and underperforming business units before they become costly blind spots.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Move from reporting to prediction (162 chars)
+GeoAI portfolio website > Move from reporting to prediction
+Use data science and machine learning to support forecasting, recommendation, and risk-aware planning.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Translate technical analysis into action (477 chars)
+GeoAI portfolio website > Translate technical analysis into action
+Package complex workflows into executive-ready interfaces that make strategic decisions faster and more reliable.
+Value Themes
+Risk
+Identify spatial, environmental, and operational pressure points.
+Insight
+Convert raw datasets into interpretable decision narratives.
+Action
+Support prioritization, intervention, and strategy refinement.
+Systems
+Build repeatable analytical products, not one-off charts.
+Contact
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Let’s build data-driven solutions that stand up to scrutiny. (200 chars)
+GeoAI portfolio website > Let’s build data-driven solutions that stand up to scrutiny.
+For consulting, collaboration, analytics builds, or geospatial intelligence work, use the contact channels below.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Phone (174 chars)
+GeoAI portfolio website > Phone
++263 776006388
+Quick Message
+© Powell Andile Ndlovu. Portfolio designed for GeoAI, environmental intelligence, and decision-focused analytics.
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Links on this page (1240 chars)
+GeoAI portfolio website > Links on this page
+- Powell Andile Ndlovu GeoAI Specialist | GIS, Remote Sensing & Machine Learning: https://kabila96.github.io/GeoAI-Portfolio/#home
+- About: https://kabila96.github.io/GeoAI-Portfolio/#about
+- Portfolio: https://kabila96.github.io/GeoAI-Portfolio/#portfolio
+- Skills: https://kabila96.github.io/GeoAI-Portfolio/#skills
+- Impact: https://kabila96.github.io/GeoAI-Portfolio/#impact
+- Contact: https://kabila96.github.io/GeoAI-Portfolio/#contact
+- View Portfolio: https://kabila96.github.io/GeoAI-Portfolio/#portfolio
+- GitHub: https://github.com/kabila96
+- View Live Dashboard: https://sales-data-analysis-portfolio-g9z5x7ikmxe5binu7s8bnf.streamlit.app/
+- View Live Dashboard: https://lkylot2tfqjksmflvu4nfs.streamlit.app/
+- View Live Dashboard: https://gf9a5ypbjcd7atqrqkz3gr.streamlit.app/
+- View Live Dashboard: https://london-uhi-2018-2025.streamlit.app/
+- View Live Dashboard: https://crop-yield-assessment-dashboard-deqyenef6sebnnxnduqfjv.streamlit.app/
+- View Live Dashboard: https://ddnudq5chneveder3zgcgz.streamlit.app/
+- View Live Dashboard: https://elite-crop-yield-prediction-app-grwqhtbzuhofvtd6wetbiw.streamlit.app/
+- View Live Dashboard: https://hyau5pvfmz5sg6wnlztyes.streamlit.app/
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Links on this page (1152 chars)
+GeoAI portfolio website > Links on this page
+- View Live Dashboard: https://elite-crop-yield-prediction-app-grwqhtbzuhofvtd6wetbiw.streamlit.app/
+- View Live Dashboard: https://hyau5pvfmz5sg6wnlztyes.streamlit.app/
+- View Live Dashboard: https://environment-impact-of-food-appuction-duvwvyvjy3qjnngacedh5g.streamlit.app/
+- View Live Dashboard: https://retail-performance-intelligence-dashboard-bjciubmna54vucvg3rka.streamlit.app/
+- View Live Dashboard: https://supermarket-branch-profit-intelligence-dashboard-yas8zxk92hlge.streamlit.app/
+- View Live Dashboard: https://kabila96.github.io/HR-Attrition-Analytics-Dashboard/
+- View Live Dashboard: https://kabila96.github.io/Zimbabwe-s-harvest-hectare-by-hectare-79-crops-six-decades-of-yield./
+- View Live Dashboard: https://ee-powellndlovu.projects.earthengine.app/view/kazuma-forest-multi-index-monitoring-app
+- View Live Dashboard: https://kabila96.github.io/Sixty-four-seasons-of-maize-across-three-Southern-African-economies./
+- View Live App: https://imjd8nnawzauusdaweeyfs.streamlit.app/
+- View Live Dashboard: https://telecom-churn-screening-intelligence-dashboard-abhp2krxxtosdff.streamlit.app/
+
+===== [website] https://kabila96.github.io/GeoAI-Portfolio/ | Links on this page (454 chars)
+GeoAI portfolio website > Links on this page
+- View Live App: https://imjd8nnawzauusdaweeyfs.streamlit.app/
+- View Live Dashboard: https://telecom-churn-screening-intelligence-dashboard-abhp2krxxtosdff.streamlit.app/
+- View Live Dashboard: https://thera-bank-marketing-intelligence-dashboard-9xyckxfnytm7xzlwah.streamlit.app/
+- linkedin.com/in/powellndlovu96: https://www.linkedin.com/in/powellndlovu96/
+- github.com/kabila96: https://github.com/kabila96
+

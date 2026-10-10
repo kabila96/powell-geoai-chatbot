@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Powell Andile Ndlovu | GeoAI & Environmental Data Analyst</title>
+  <meta name="description" content="Professional GeoAI, GIS, Remote Sensing, and Machine Learning portfolio for Powell Andile Ndlovu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --bg-soft: #eef2f9;
+      --surface: rgba(255, 255, 255, 0.78);
+      --surface-strong: rgba(255, 255, 255, 0.92);
+      --text: #111827;
+      --muted: #5b6475;
+      --line: rgba(15, 23, 42, 0.09);
+      --primary: #1d4ed8;
+      --primary-soft: rgba(29, 78, 216, 0.12);
+      --accent: #0f766e;
+      --shadow: 0 20px 45px rgba(15, 23, 42, 0.10);
+      --shadow-soft: 0 12px 30px rgba(15, 23, 42, 0.07);
+      --radius-lg: 24px;
+      --radius-md: 18px;
+      --radius-sm: 12px;
+      --max-width: 1200px;
+    }
+
+    body.dark {
+      --bg: #08101d;
+      --bg-soft: #0d1727;
+      --surface: rgba(13, 23, 39, 0.75);
+      --surface-strong: rgba(12, 21, 36, 0.94);
+      --text: #eef4ff;
+      --muted: #a9b6cb;
+      --line: rgba(255, 255, 255, 0.08);
+      --primary: #60a5fa;
+      --primary-soft: rgba(96, 165, 250, 0.16);
+      --accent: #2dd4bf;
+      --shadow: 0 20px 45px rgba(2, 8, 20, 0.48);
+      --shadow-soft: 0 12px 30px rgba(2, 8, 20, 0.38);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(29, 78, 216, 0.12), transparent 32%),
+        radial-gradient(circle at top right, rgba(15, 118, 110, 0.10), transparent 28%),
+        linear-gradient(180deg, var(--bg) 0%, var(--bg-soft) 100%);
+      color: var(--text);
+      line-height: 1.6;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(100% - 2rem, var(--max-width));
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 90px 0;
+    }
+
+    .section-heading {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 34px;
+      max-width: 760px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      width: fit-content;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    h1, h2, h3, h4 {
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+    }
+
+    h1 {
+      font-size: clamp(2.6rem, 5vw, 5rem);
+      font-weight: 800;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .lead {
+      font-size: 1.12rem;
+      max-width: 760px;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(14px);
+      background: color-mix(in srgb, var(--bg) 72%, transparent);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand strong {
+      font-size: 1rem;
+      font-weight: 800;
+    }
+
+    .brand span {
+      font-size: 0.84rem;
+      color: var(--muted);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      font-size: 0.95rem;
+      color: var(--muted);
+      font-weight: 600;
+      transition: color 0.25s ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--text);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .theme-toggle,
+    .menu-toggle {
+      border: 1px solid var(--line);
+      background: var(--surface-strong);
+      color: var(--text);
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 0.2s ease, border-color 0.25s ease, background 0.25s ease;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .theme-toggle:hover,
+    .menu-toggle:hover {
+      transform: translateY(-2px);
+    }
+
+    .theme-toggle {
+      padding: 10px 14px;
+      font-weight: 700;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      font-size: 1.25rem;
+    }
+
+    .hero {
+      padding: 88px 0 54px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .hero-card,
+    .glass-card,
+    .project-card,
+    .metric-card,
+    .contact-card,
+    .skill-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+
+    .hero-card {
+      border-radius: 32px;
+      padding: 34px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card::after {
+      content: "";
+      position: absolute;
+      inset: auto -60px -60px auto;
+      width: 220px;
+      height: 220px;
+      background: radial-gradient(circle, rgba(29, 78, 216, 0.16), transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .tagline {
+      font-size: clamp(1.1rem, 2.1vw, 1.5rem);
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .hero-copy {
+      max-width: 760px;
+      font-size: 1.05rem;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 20px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .btn-primary {
+      background: var(--text);
+      color: white;
+    }
+
+    .btn-secondary {
+      background: var(--surface-strong);
+      color: var(--text);
+      border-color: var(--line);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--primary);
+      border-color: color-mix(in srgb, var(--primary) 30%, var(--line));
+    }
+
+    .hero-panel {
+      display: grid;
+      gap: 18px;
+    }
+
+    .glass-card {
+      border-radius: var(--radius-lg);
+      padding: 24px;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .metric-card {
+      border-radius: var(--radius-md);
+      padding: 18px;
+    }
+
+    .metric-value {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .metric-label {
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    .stack-list,
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .pill,
+    .stack-item,
+    .filter-btn {
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 600;
+      font-size: 0.92rem;
+      border: 1px solid var(--line);
+      background: var(--surface-strong);
+      color: var(--muted);
+    }
+
+    .stack-item {
+      color: var(--text);
+    }
+
+    .about-grid,
+    .impact-grid,
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 24px;
+    }
+
+    .about-points,
+    .value-list,
+    .contact-list {
+      margin-top: 22px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .about-point,
+    .value-item,
+    .contact-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 16px 18px;
+      border-radius: var(--radius-md);
+      background: var(--surface-strong);
+      border: 1px solid var(--line);
+    }
+
+    .point-icon,
+    .value-icon,
+    .contact-icon {
+      min-width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .skill-card {
+      padding: 22px;
+      border-radius: var(--radius-lg);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .skill-card:hover,
+    .project-card:hover,
+    .glass-card:hover,
+    .contact-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 22px 50px rgba(15, 23, 42, 0.14);
+    }
+
+    .skill-card p {
+      margin-top: 10px;
+      font-size: 0.96rem;
+    }
+
+    .project-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 26px;
+    }
+
+    .filter-btn {
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .filter-btn.active,
+    .filter-btn:hover {
+      background: var(--text);
+      color: white;
+      border-color: transparent;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .project-card {
+      border-radius: 26px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      transition: transform 0.28s ease, box-shadow 0.28s ease, opacity 0.28s ease;
+    }
+
+    .project-thumb {
+      position: relative;
+      min-height: 240px;
+      padding: 22px;
+      display: flex;
+      align-items: flex-end;
+      background: linear-gradient(135deg, rgba(29, 78, 216, 0.18), rgba(15, 118, 110, 0.12));
+      border-bottom: 1px solid var(--line);
+      overflow: hidden;
+    }
+
+    .project-thumb img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+    .project-thumb::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(8, 16, 29, 0.05) 0%, rgba(8, 16, 29, 0.62) 100%);
+      z-index: 0;
+    }
+
+
+
+    .project-badge {
+      position: relative;
+      z-index: 1;
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.88);
+      color: #0f172a;
+      font-size: 0.82rem;
+      font-weight: 700;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+    }
+
+    .project-body {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      flex: 1;
+    }
+
+    .project-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .project-meta span {
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary);
+    }
+
+    .project-copy {
+      font-size: 0.95rem;
+    }
+
+    .project-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-top: auto;
+      padding-top: 8px;
+    }
+
+    .project-footer small {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .impact-grid .glass-card,
+    .contact-card {
+      border-radius: 28px;
+      padding: 28px;
+    }
+
+    .contact-card form {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    label {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: var(--surface-strong);
+      color: var(--text);
+      border-radius: 16px;
+      padding: 14px 16px;
+      font: inherit;
+      resize: vertical;
+      min-height: 54px;
+      outline: none;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    textarea {
+      min-height: 130px;
+    }
+
+    input:focus,
+    textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(29, 78, 216, 0.12);
+    }
+
+    footer {
+      padding: 26px 0 40px;
+      border-top: 1px solid var(--line);
+    }
+
+    .footer-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .footer-row p {
+      font-size: 0.92rem;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.65s ease, transform 0.65s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 1080px) {
+      .hero-grid,
+      .about-grid,
+      .impact-grid,
+      .contact-grid,
+      .skills-grid,
+      .projects-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 860px) {
+      .menu-toggle {
+        display: inline-grid;
+        place-items: center;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: calc(100% + 12px);
+        right: 1rem;
+        left: 1rem;
+        background: var(--surface-strong);
+        border: 1px solid var(--line);
+        border-radius: 22px;
+        box-shadow: var(--shadow);
+        padding: 18px;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .hero-grid,
+      .about-grid,
+      .impact-grid,
+      .contact-grid,
+      .projects-grid,
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 64px;
+      }
+
+      .hero-card,
+      .glass-card,
+      .contact-card {
+        padding: 24px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .section {
+        padding: 74px 0;
+      }
+
+      .hero-card {
+        border-radius: 26px;
+      }
+
+      .metrics-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-row,
+      .project-controls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .btn,
+      .filter-btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .project-footer {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#home" class="brand">
+        <strong>Powell Andile Ndlovu</strong>
+        <span>GeoAI Specialist | GIS, Remote Sensing & Machine Learning</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#impact">Impact</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <article class="hero-card reveal">
+          <div class="hero-text">
+            <span class="eyebrow">GeoAI Portfolio</span>
+            <h1>Turning spatial, environmental, and business data into decision intelligence.</h1>
+            <p class="tagline">GeoAI Specialist | GIS, Remote Sensing & Machine Learning</p>
+            <p class="hero-copy">I design analytical systems that combine geospatial intelligence, environmental modelling, and machine learning to reveal patterns, quantify risk, and support better strategic decisions.</p>
+            <div class="cta-row">
+              <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+              <a href="#contact" class="btn btn-secondary">Contact</a>
+              <a href="https://github.com/kabila96" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="hero-panel reveal">
+          <article class="glass-card">
+            <span class="eyebrow">Core Positioning</span>
+            <h3 style="margin-top:16px;">Analytics built for real-world decisions</h3>
+            <p style="margin-top:12px;">This portfolio is structured around operational insight, predictive systems, and spatial intelligence.</p>
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <div class="metric-value">18</div>
+                <div class="metric-label">Live portfolio dashboards</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-value">4</div>
+                <div class="metric-label">Core capability pillars</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-value">GIS</div>
+                <div class="metric-label">Spatial decision systems</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-value">ML</div>
+                <div class="metric-label">Predictive intelligence workflows</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-card">
+            <span class="eyebrow">Tools & Stack</span>
+            <div class="stack-list">
+              <span class="stack-item">Python</span>
+              <span class="stack-item">R</span>
+              <span class="stack-item">QGIS</span>
+              <span class="stack-item">Remote Sensing</span>
+              <span class="stack-item">Google Earth Engine</span>
+              <span class="stack-item">Streamlit</span>
+              <span class="stack-item">Plotly</span>
+              <span class="stack-item">Machine Learning</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <div class="section-heading">
+            <span class="eyebrow">About</span>
+            <h2>Built at the intersection of geospatial intelligence, AI, and decision support.</h2>
+            <p class="lead">My work focuses on transforming raw environmental, spatial, and operational data into interpretable systems that decision-makers can actually use. The emphasis is not on visuals for their own sake. It is on evidence, action, and measurable insight.</p>
+          </div>
+
+          <div class="about-points">
+            <div class="about-point">
+              <div class="point-icon">01</div>
+              <div>
+                <h3>Geospatial analytics</h3>
+                <p>Spatial analysis frameworks for urban systems, environmental monitoring, and socioeconomic intelligence.</p>
+              </div>
+            </div>
+            <div class="about-point">
+              <div class="point-icon">02</div>
+              <div>
+                <h3>Machine learning</h3>
+                <p>Predictive models that move from descriptive reporting to forward-looking decision support.</p>
+              </div>
+            </div>
+            <div class="about-point">
+              <div class="point-icon">03</div>
+              <div>
+                <h3>Executive dashboards</h3>
+                <p>Clean, story-driven analytics interfaces designed for leadership, operations, and technical stakeholders.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="glass-card reveal">
+          <span class="eyebrow">Operating Principles</span>
+          <div class="value-list">
+            <div class="value-item">
+              <div class="value-icon">A</div>
+              <div>
+                <h3>Analytical clarity</h3>
+                <p>Every solution is designed to simplify complexity without hiding important detail.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">B</div>
+              <div>
+                <h3>Business relevance</h3>
+                <p>Insight only matters when it improves planning, targeting, prioritization, or risk control.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">C</div>
+              <div>
+                <h3>System thinking</h3>
+                <p>Strong analytics connect environmental patterns, human systems, and operational outcomes.</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Portfolio</span>
+          <h2>Live analytical systems built for environmental, business, and operational intelligence.</h2>
+          <p class="lead">Each portfolio item is framed as a decision-support product. The structure highlights the problem, the insight, and the applied analytics stack behind it.</p>
+        </div>
+
+        <div class="project-controls reveal" id="projectFilters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="geoai">GeoAI & GIS</button>
+          <button class="filter-btn" data-filter="environment">Environmental</button>
+          <button class="filter-btn" data-filter="agri">Agriculture</button>
+          <button class="filter-btn" data-filter="business">Business</button>
+          <button class="filter-btn" data-filter="hr">HR</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card reveal" data-category="business">
+            <div class="project-thumb"><img src="Retail-Sales-Analysis.jpg" alt="Retail Sales Analysis image"><span class="project-badge">Retail Analytics</span></div>
+            <div class="project-body">
+              <h3>Retail Sales Analysis</h3>
+              <p class="project-copy">A sales intelligence interface designed to surface revenue patterns, product performance, and commercially relevant trends from retail transaction data.</p>
+              <div class="project-meta"><span>Business Intelligence</span><span>Streamlit</span><span>Python</span></div>
+              <div class="project-footer">
+                <small>Problem solved: retail performance visibility</small>
+                <a class="btn btn-outline" href="https://sales-data-analysis-portfolio-g9z5x7ikmxe5binu7s8bnf.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="environment">
+            <div class="project-thumb"><img src="Bosherston Lily Ponds Water Chemistry Assessment.jpg" alt="Bosherston Lily Ponds Water Chemistry Assessment image"><span class="project-badge">Water Chemistry</span></div>
+            <div class="project-body">
+              <h3>Bosherston Lily Ponds Water Chemistry Assessment</h3>
+              <p class="project-copy">An environmental data analysis dashboard developed to interpret water chemistry patterns and support evidence-based ecological monitoring.</p>
+              <div class="project-meta"><span>Environmental Data</span><span>Monitoring</span><span>Analytics</span></div>
+              <div class="project-footer">
+                <small>Problem solved: environmental condition assessment</small>
+                <a class="btn btn-outline" href="https://lkylot2tfqjksmflvu4nfs.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="geoai">
+            <div class="project-thumb"><img src="Spatial Inequalities, Socioeconomic Deprivation, and Drug-Related Crime Patterns Across Wales.png" alt="Spatial Inequalities, Socioeconomic Deprivation, and Drug-Related Crime Patterns Across Wales image"><span class="project-badge">Spatial Crime Intelligence</span></div>
+            <div class="project-body">
+              <h3>Spatial Inequalities, Socioeconomic Deprivation, and Drug-Related Crime Patterns Across Wales</h3>
+              <p class="project-copy">A GIS and statistical intelligence system mapping the relationship between deprivation and drug-related crime at MSOA level across Wales.</p>
+              <div class="project-meta"><span>GIS</span><span>Spatial Statistics</span><span>MSOA Analysis</span></div>
+              <div class="project-footer">
+                <small>Problem solved: spatial risk pattern identification</small>
+                <a class="btn btn-outline" href="https://gf9a5ypbjcd7atqrqkz3gr.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="geoai environment">
+            <div class="project-thumb"><img src="SpatioTemporal Dynamics of UHI in Greater London (2018–2025).jfif" alt="SpatioTemporal Dynamics of UHI in Greater London (2018–2025) image"><span class="project-badge">Urban Heat Intelligence</span></div>
+            <div class="project-body">
+              <h3>SpatioTemporal Dynamics of UHI in Greater London (2018–2025)</h3>
+              <p class="project-copy">A geospatial heat-risk dashboard examining urban heat island dynamics across Greater London to support climate resilience and urban planning.</p>
+              <div class="project-meta"><span>Remote Sensing</span><span>Climate Analytics</span><span>GeoAI</span></div>
+              <div class="project-footer">
+                <small>Problem solved: urban heat exposure intelligence</small>
+                <a class="btn btn-outline" href="https://london-uhi-2018-2025.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="agri">
+            <div class="project-thumb"><img src="Crop Yield Assessment Dashboard.jpg" alt="Crop Yield Assessment Dashboard image"><span class="project-badge">Agricultural Intelligence</span></div>
+            <div class="project-body">
+              <h3>Crop Yield Assessment Dashboard</h3>
+              <p class="project-copy">An applied dashboard for exploring crop yield trends, assessing agricultural performance, and extracting actionable farm-level insights.</p>
+              <div class="project-meta"><span>Agriculture</span><span>Data Analysis</span><span>Dashboard</span></div>
+              <div class="project-footer">
+                <small>Problem solved: crop performance evaluation</small>
+                <a class="btn btn-outline" href="https://crop-yield-assessment-dashboard-deqyenef6sebnnxnduqfjv.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="business">
+            <div class="project-thumb"><img src="Wine Quality Assessment.jpg" alt="Wine Quality Assessment image"><span class="project-badge">Quality Analytics</span></div>
+            <div class="project-body">
+              <h3>Wine Quality Assessment</h3>
+              <p class="project-copy">A data-driven quality intelligence system used to evaluate patterns in wine quality and identify the variables driving performance outcomes.</p>
+              <div class="project-meta"><span>Classification Insight</span><span>Python</span><span>Analytics</span></div>
+              <div class="project-footer">
+                <small>Problem solved: quality driver interpretation</small>
+                <a class="btn btn-outline" href="https://ddnudq5chneveder3zgcgz.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="agri">
+            <div class="project-thumb"><img src="Elite-Crop-Yield-Prediction-App.jpg" alt="Elite Crop Yield Prediction App image"><span class="project-badge">Predictive Agriculture</span></div>
+            <div class="project-body">
+              <h3>Elite Crop Yield Prediction App</h3>
+              <p class="project-copy">A predictive agriculture dashboard built to estimate crop yield outcomes and support more data-driven planning decisions.</p>
+              <div class="project-meta"><span>Machine Learning</span><span>Prediction</span><span>Agritech</span></div>
+              <div class="project-footer">
+                <small>Problem solved: yield forecasting support</small>
+                <a class="btn btn-outline" href="https://elite-crop-yield-prediction-app-grwqhtbzuhofvtd6wetbiw.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="agri">
+            <div class="project-thumb"><img src="Crop-Recommendation.jpg" alt="Crop Recommendation image"><span class="project-badge">Decision Support</span></div>
+            <div class="project-body">
+              <h3>Crop Recommendation</h3>
+              <p class="project-copy">A recommendation engine that aligns agricultural inputs and environmental conditions with suitable crop selection decisions.</p>
+              <div class="project-meta"><span>Recommendation System</span><span>Agriculture</span><span>ML</span></div>
+              <div class="project-footer">
+                <small>Problem solved: crop selection optimization</small>
+                <a class="btn btn-outline" href="https://hyau5pvfmz5sg6wnlztyes.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="environment business">
+            <div class="project-thumb"><img src="Food Sustainability Decision Dashboard.jfif" alt="Food Sustainability Decision Dashboard image"><span class="project-badge">Sustainability Intelligence</span></div>
+            <div class="project-body">
+              <h3>Food Sustainability Decision Dashboard</h3>
+              <p class="project-copy">A decision-oriented dashboard exploring the environmental implications of food choices and sustainability-related trade-offs.</p>
+              <div class="project-meta"><span>Sustainability</span><span>Decision Support</span><span>Analytics</span></div>
+              <div class="project-footer">
+                <small>Problem solved: sustainability trade-off analysis</small>
+                <a class="btn btn-outline" href="https://environment-impact-of-food-appuction-duvwvyvjy3qjnngacedh5g.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="business">
+            <div class="project-thumb"><img src="Retail Intelligence Dashboards.jpg" alt="Retail Intelligence Dashboards image"><span class="project-badge">Commercial Performance</span></div>
+            <div class="project-body">
+              <h3>Retail Intelligence Dashboards</h3>
+              <p class="project-copy">A dashboard suite focused on revenue drivers, customer-facing performance, and operational insights for retail decision-makers.</p>
+              <div class="project-meta"><span>Retail BI</span><span>Decision Intelligence</span><span>Operations</span></div>
+              <div class="project-footer">
+                <small>Problem solved: commercial monitoring and action</small>
+                <a class="btn btn-outline" href="https://retail-performance-intelligence-dashboard-bjciubmna54vucvg3rka.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="business">
+            <div class="project-thumb"><img src="Retail-Intelligence-Dashboards.jpg" alt="Supermarket Branch Profit Intelligence Dashboard image"><span class="project-badge">Profit Intelligence</span></div>
+            <div class="project-body">
+              <h3>Supermarket Branch Profit Intelligence Dashboard</h3>
+              <p class="project-copy">A branch-level decision system designed to track profitability patterns, compare store performance, and expose operational pressure points.</p>
+              <div class="project-meta"><span>Profit Analysis</span><span>Branch Performance</span><span>Dashboard</span></div>
+              <div class="project-footer">
+                <small>Problem solved: store-level profit visibility</small>
+                <a class="btn btn-outline" href="https://supermarket-branch-profit-intelligence-dashboard-yas8zxk92hlge.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="hr business">
+            <div class="project-thumb"><img src="HR Executive Intelligence Dashboard.jpg" alt="HR Executive Intelligence Dashboard image"><span class="project-badge">People Analytics</span></div>
+            <div class="project-body">
+              <h3>HR Executive Intelligence Dashboard</h3>
+              <p class="project-copy">A leadership-focused people analytics dashboard highlighting attrition risk, workforce pressure points, and practical intervention priorities.</p>
+              <div class="project-meta"><span>HR Analytics</span><span>Executive Dashboard</span><span>Workforce Insight</span></div>
+              <div class="project-footer">
+                <small>Problem solved: executive workforce decision support</small>
+                <a class="btn btn-outline" href="https://kabila96.github.io/HR-Attrition-Analytics-Dashboard/" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+         <article class="project-card reveal" data-category="hr business">
+            <div class="project-thumb"><img src="FAOSTATS.jpg" alt="FAOSTAS Executive Intelligence Dashboard image"><span class="project-badge">ZIMBABWE FAOSTAS FOOD Analytics</span></div>
+            <div class="project-body">
+              <h3>Zimbabwe Agricultural Intelligence Dashboard</h3>
+              <p class="project-copy">A decision-focused analytics platform uncovering crop yield dynamics, production stability, and climate-linked variability across Zimbabwe’s agricultural systems.</p>
+              <div class="project-meta"><span>Agricultural Yield Intelligence</span><span>Executive Dashboard</span><span>Crop Performance Insights</span></div>
+              <div class="project-footer">
+                <small>Problem solved: data-driven agricultural decision support under climate variability</small>
+                <a class="btn btn-outline" href="https://kabila96.github.io/Zimbabwe-s-harvest-hectare-by-hectare-79-crops-six-decades-of-yield./" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+            <article class="project-card reveal" data-category="hr business">
+            <div class="project-thumb"><img src="Kazuma.jpg" alt="Kazuma Forest"><span class="project-badge">Kazuma Forest Ecosystem Intelligence</span></div>
+            <div class="project-body">
+              <h3>Multi-Index Time Series Dashboard</h3>
+              <p class="project-copy">Problem solved: monitoring ecosystem health, stress patterns, and disturbance dynamics using remote sensing</p>
+              <div class="project-meta"><span>Multi-Index Time Series Dashboard</span><span>NDVI, NDMI & NBR Dynamics</span><span>Vegetation Health & Disturbance Insights</span></div>
+              <div class="project-footer">
+                <small>Problem solved: tracking ecosystem resilience and identifying early warning signals of degradation</small>
+                <a class="btn btn-outline" href="https://ee-powellndlovu.projects.earthengine.app/view/kazuma-forest-multi-index-monitoring-app" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+
+            <article class="project-card reveal" data-category="hr business">
+            <div class="project-thumb"><img src="Southernafrica.jpg" alt="FAOSTAS Executive Intelligence Dashboard image"><span class="project-badge">Southern Africa FAOSTAS FOOD Analytics</span></div>
+            <div class="project-body">
+              <h3>FAOSTAT Southern Africa Yield Intelligence Dashboard</h3>
+              <p class="project-copy">A decision-focused analytics platform uncovering crop yield dynamics, production stability, and climate-linked variability across Zimbabwe’s agricultural systems.</p>
+              <div class="project-meta"><span>Agricultural Yield Intelligence</span><span>Executive Dashboard</span><span>Crop Performance Insights</span></div>
+              <div class="project-footer">
+                <small>Problem solved: executive-grade agricultural decision support under climate variability and uneven data reliability across Southern Africa</small>
+                <a class="btn btn-outline" href="https://kabila96.github.io/Sixty-four-seasons-of-maize-across-three-Southern-African-economies./" target="_blank" rel="noopener">View Live Dashboard</a>
+              </div>
+            </div>
+          </article>
+    <article class="project-card reveal" data-category="healthcare ai business">
+  <div class="project-thumb">
+    <img src="healthcare.jpg" alt="Heart Disease Screening App interface">
+    <span class="project-badge">AI Health Screening Analytics</span>
+  </div>
+  <div class="project-body">
+    <h3>Heart Disease Screening & Risk Interpretation App</h3>
+    <p class="project-copy">A decision-focused screening application designed to identify potential heart disease risk from BRFSS health indicators using XGBoost, threshold optimisation, and SHAP-based explainability for transparent public health decision support.</p>
+    <div class="project-meta">
+      <span>Predictive Health Analytics</span>
+      <span>Streamlit App</span>
+      <span>Explainable AI</span>
+    </div>
+    <div class="project-footer">
+      <small>Problem solved: interpretable early-risk screening for heart disease in imbalanced health data using machine learning and explainable AI</small>
+      <a class="btn btn-outline" href="https://imjd8nnawzauusdaweeyfs.streamlit.app/" target="_blank" rel="noopener">View Live App</a>
+    </div>
+  </div>
+</article>
+
+      <article class="project-card reveal" data-category="business analytics ai">
+  <div class="project-thumb">
+    <img src="Telecommunication.jpg" alt="Telecom Churn Retention Intelligence Dashboard image">
+    <span class="project-badge">Telecom Retention Intelligence</span>
+  </div>
+  <div class="project-body">
+    <h3>Telecom Churn Screening & Retention Intelligence Dashboard</h3>
+    <p class="project-copy">A leadership-focused analytics and machine learning platform built to detect churn risk early, reveal the drivers of customer loss, and prioritize high-value retention actions under budget constraints.</p>
+    <div class="project-meta">
+      <span>Predictive Customer Analytics</span>
+      <span>Explainable AI Dashboard</span>
+      <span>Retention ROI Strategy</span>
+    </div>
+    <div class="project-footer">
+      <small>Problem solved: transforming churn prediction into decision-ready retention strategy through risk scoring, SHAP-based explanation, and ROI-led customer targeting</small>
+      <a class="btn btn-outline" href="https://telecom-churn-screening-intelligence-dashboard-abhp2krxxtosdff.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+    </div>
+  </div>
+</article>
+
+  <article class="project-card reveal" data-category="business analytics AI">
+  <div class="project-thumb">
+    <img src="Bank.jpg" alt="Thera Bank Marketing Intelligence Dashboard image">
+    <span class="project-badge">Bank Marketing Intelligence</span>
+  </div>
+  <div class="project-body">
+    <h3>Thera Bank Personal Loan Targeting & Marketing Intelligence Dashboard</h3>
+    <p class="project-copy">A decision-focused analytics and machine learning platform built to identify high-probability personal loan customers, explain targeting logic, and optimize campaign action through profit-aware customer ranking.</p>
+    <div class="project-meta">
+      <span>Predictive Banking Analytics</span>
+      <span>Explainable ML Dashboard</span>
+      <span>Campaign ROI Strategy</span>
+    </div>
+    <div class="project-footer">
+      <small>Problem solved: transforming personal loan propensity modelling into decision-ready marketing strategy through probability scoring, explainability, lift and gain analysis, and ROI-led customer targeting</small>
+      <a class="btn btn-outline" href="https://thera-bank-marketing-intelligence-dashboard-9xyckxfnytm7xzlwah.streamlit.app/" target="_blank" rel="noopener">View Live Dashboard</a>
+    </div>
+  </div>
+</article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Skills</span>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Geospatial Intelligence</h3>
+            <p>GIS, remote sensing, spatial modelling, map-based analytics, and geostatistical interpretation for location-aware decisions.</p>
+            <div class="pill-list"><span class="pill">QGIS</span><span class="pill">Spatial Analysis</span><span class="pill">Cartography</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Data Science & ML</h3>
+            <p>Predictive modelling, statistical analysis, data cleaning, feature exploration, and practical machine learning workflows.</p>
+            <div class="pill-list"><span class="pill">Python</span><span class="pill">R</span><span class="pill">Scikit-learn</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Dashboard Engineering</h3>
+            <p>Interactive decision dashboards that convert raw analysis into interfaces suitable for technical and executive audiences.</p>
+            <div class="pill-list"><span class="pill">Streamlit</span><span class="pill">Plotly</span><span class="pill">Storytelling</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Business & Environmental Insight</h3>
+            <p>Applied analytics for retail, sustainability, agriculture, environmental monitoring, and public-interest decision systems.</p>
+            <div class="pill-list"><span class="pill">Forecasting</span><span class="pill">Risk Insight</span><span class="pill">Decision Support</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="impact">
+      <div class="container impact-grid">
+        <div class="reveal">
+          <div class="section-heading">
+            <span class="eyebrow">Impact</span>
+            <h2>What these systems help organizations do.</h2>
+            <p class="lead">The real test of analytical work is not whether the charts look impressive. It is whether they improve planning, prioritization, and action.</p>
+          </div>
+
+          <div class="value-list">
+            <div class="value-item">
+              <div class="value-icon">01</div>
+              <div>
+                <h3>Expose hidden spatial and operational patterns</h3>
+                <p>Reveal location-based inequalities, environmental hotspots, and underperforming business units before they become costly blind spots.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">02</div>
+              <div>
+                <h3>Move from reporting to prediction</h3>
+                <p>Use data science and machine learning to support forecasting, recommendation, and risk-aware planning.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">03</div>
+              <div>
+                <h3>Translate technical analysis into action</h3>
+                <p>Package complex workflows into executive-ready interfaces that make strategic decisions faster and more reliable.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="glass-card reveal">
+          <span class="eyebrow">Value Themes</span>
+          <div class="metrics-grid">
+            <div class="metric-card"><div class="metric-value">Risk</div><div class="metric-label">Identify spatial, environmental, and operational pressure points.</div></div>
+            <div class="metric-card"><div class="metric-value">Insight</div><div class="metric-label">Convert raw datasets into interpretable decision narratives.</div></div>
+            <div class="metric-card"><div class="metric-value">Action</div><div class="metric-label">Support prioritization, intervention, and strategy refinement.</div></div>
+            <div class="metric-card"><div class="metric-value">Systems</div><div class="metric-label">Build repeatable analytical products, not one-off charts.</div></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <article class="contact-card reveal">
+          <div class="section-heading" style="margin-bottom: 14px;">
+            <span class="eyebrow">Contact</span>
+            <h2>Let’s build data-driven solutions that stand up to scrutiny.</h2>
+            <p class="lead">For consulting, collaboration, analytics builds, or geospatial intelligence work, use the contact channels below.</p>
+          </div>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <div class="contact-icon">@</div>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:powellndlovu@gmail.com">powellndlovu@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">in</div>
+              <div>
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/powellndlovu96/" target="_blank" rel="noopener">linkedin.com/in/powellndlovu96</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">GH</div>
+              <div>
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/kabila96" target="_blank" rel="noopener">github.com/kabila96</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">☎</div>
+              <div>
+                <h3>Phone</h3>
+                <p><a href="tel:+263776006388">+263 776006388</a></p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+       <article class="contact-card reveal">
+  <span class="eyebrow">Quick Message</span>
+
+  <form action="https://formspree.io/f/xojpgone" method="POST">
+    <div class="field">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+    </div>
+
+    <div class="field">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    </div>
+
+    <div class="field">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Tell me about your project, organization, or analytics need." required></textarea>
+    </div>
+
+    <input type="hidden" name="_subject" value="New Portfolio Inquiry from Powell's Website">
+
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Powell Andile Ndlovu. Portfolio designed for GeoAI, environmental intelligence, and decision-focused analytics.</p>
+    </div>
+  </footer>
+
+  <script>
+    const body = document.body;
+    const themeToggle = document.getElementById('themeToggle');
+    const savedTheme = localStorage.getItem('portfolio-theme');
+
+    if (savedTheme === 'dark') {
+      body.classList.add('dark');
+      themeToggle.textContent = '☀️';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark');
+      const isDark = body.classList.contains('dark');
+      themeToggle.textContent = isDark ? '☀️' : '🌙';
+      localStorage.setItem('portfolio-theme', isDark ? 'dark' : 'light');
+    });
+
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      menuToggle.textContent = navLinks.classList.contains('open') ? '✕' : '☰';
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        menuToggle.textContent = '☰';
+      });
+    });
+
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        const filter = button.dataset.filter;
+
+        projectCards.forEach(card => {
+          const categories = card.dataset.category.split(' ');
+          const visible = filter === 'all' || categories.includes(filter);
+          card.style.display = visible ? 'flex' : 'none';
+        });
+      });
+    });
+
+    const sections = document.querySelectorAll('main section[id]');
+    const navAnchors = document.querySelectorAll('.nav-links a');
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navAnchors.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+          });
+        }
+      });
+    }, { threshold: 0.45 });
+
+    sections.forEach(section => sectionObserver.observe(section));
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ask Powell's GeoAI Assistant</title>
+  <meta name="description" content="Ask questions about Powell Ndlovu's GIS, remote sensing, climate analytics, GeoAI, data science and AI automation consultancy services.">
+  <meta name="theme-color" content="#f2f5f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1a1f" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="Ask Powell's GeoAI Assistant">
+  <meta property="og:description" content="Answers about Powell Ndlovu's geospatial, climate and AI consultancy services, with sources.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..800;1,100,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2310232b'/%3E%3Cpath d='M16 5l4 16-4-3-4 3z' fill='%2347b07c'/%3E%3C/svg%3E">
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#input">Skip to the question box</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <img class="brand-photo" src="powell.jpg" width="52" height="52" alt="Powell Ndlovu">
+      <div class="brand-text">
+        <h1>Powell Ndlovu</h1>
+        <p class="tagline">Geospatial intelligence and AI consultancy</p>
+      </div>
+    </div>
+
+    <div class="coords" aria-hidden="true" title="Your pointer, as if this page were a map of the world">
+      <span id="coordReadout">0.0000° N, 0.0000° E</span>
+    </div>
+
+    <a class="btn btn-primary topbar-cta" id="topContact" href="#contact">
+      <span class="cta-long">Request a consultation</span>
+      <span class="cta-short">Contact</span>
+    </a>
+  </header>
+  <div class="ramp" aria-hidden="true"></div>
+
+  <main class="layout">
+    <!-- Chat -->
+    <section class="chat" aria-labelledby="chatTitle">
+      <div class="chat-head">
+        <div class="chat-head-text">
+          <h2 id="chatTitle">Ask about Powell's services</h2>
+          <p class="status" id="kbStatus" data-state="loading">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span id="kbStatusText">Checking the knowledge base…</span>
+          </p>
+        </div>
+        <button class="btn btn-quiet" id="clearBtn" type="button" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>New<span class="label-long"> conversation</span></span>
+        </button>
+      </div>
+
+      <div class="messages" id="messages" role="log" aria-live="polite" aria-relevant="additions" tabindex="0">
+        <div class="welcome" id="welcome">
+          <h3 class="welcome-title">What would you like to know about working with Powell?</h3>
+          <p class="welcome-lede">
+            Answers are drawn from Powell's consultancy profile and his portfolio websites, and each one links to
+            the source it came from. For quotes and timelines, you'll be pointed to a short scoping call.
+          </p>
+          <div class="starters" id="starters" aria-label="Suggested questions">
+            <button class="starter" type="button" data-q="What services does Powell offer?">
+              <span class="starter-q">What services does Powell offer?</span>
+              <span class="starter-hint">Overview of all seven service areas</span>
+            </button>
+            <button class="starter" type="button" data-q="Show me some GeoAI dashboard projects Powell has built.">
+              <span class="starter-q">Show me some dashboard projects</span>
+              <span class="starter-hint">Live examples from the GeoAI portfolio</span>
+            </button>
+            <button class="starter" type="button" data-q="What are Powell's qualifications?">
+              <span class="starter-q">What are Powell's qualifications?</span>
+              <span class="starter-hint">Study, scholarship and professional development</span>
+            </button>
+            <button class="starter" type="button" data-q="Can Powell work with a small business or NGO?">
+              <span class="starter-q">Can he work with a small business?</span>
+              <span class="starter-hint">Clients, sectors and engagement options</span>
+            </button>
+            <button class="starter" type="button" data-q="Which GIS and remote sensing tools does Powell use?">
+              <span class="starter-q">Which tools does he use?</span>
+              <span class="starter-hint">ArcGIS, QGIS, Earth Engine, Python, R and more</span>
+            </button>
+            <button class="starter" type="button" data-q="How much does a project cost and how do I get a quote?">
+              <span class="starter-q">How much does a project cost?</span>
+              <span class="starter-hint">How quotes and timelines are agreed</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <button class="jump" id="jumpBtn" type="button" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Latest message
+      </button>
+
+      <form class="composer" id="composer" autocomplete="off">
+        <label for="input" class="visually-hidden">Your question</label>
+        <textarea id="input" rows="1" maxlength="1000" placeholder="Ask about a service, a project or how to work with Powell" required></textarea>
+        <button class="send" id="sendBtn" type="submit" aria-label="Send question">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </form>
+      <div class="composer-foot">
+        <span class="small muted">Enter to send, Shift + Enter for a new line</span>
+        <span id="charCount" class="small muted count" aria-live="off">0 / 1000</span>
+      </div>
+      <p class="disclaimer small muted">Answers are AI-generated from Powell's published material and can be incomplete. Please confirm important details with Powell directly.</p>
+    </section>
+
+    <!-- Sidebar: services as a map legend, portfolio links and contact -->
+    <aside class="sidebar" aria-label="Services, portfolios and contact">
+      <section class="panel">
+        <h2 class="panel-title">Services</h2>
+        <p class="panel-hint">Pick one to ask the assistant about it.</p>
+        <ul class="legend" id="layerList">
+          <li><button class="layer" type="button" data-q="What GIS and spatial analysis services does Powell offer?"><span class="swatch s1"></span>GIS and spatial analysis</button></li>
+          <li><button class="layer" type="button" data-q="What remote sensing and Earth observation work can Powell do?"><span class="swatch s2"></span>Remote sensing</button></li>
+          <li><button class="layer" type="button" data-q="How can Powell help with climate change and environmental risk analysis?"><span class="swatch s3"></span>Climate and environmental risk</button></li>
+          <li><button class="layer" type="button" data-q="What data analysis and dashboard services are available?"><span class="swatch s4"></span>Data analysis and dashboards</button></li>
+          <li><button class="layer" type="button" data-q="What GeoAI and machine learning projects has Powell built?"><span class="swatch s5"></span>GeoAI and machine learning</button></li>
+          <li><button class="layer" type="button" data-q="Can Powell build an AI chatbot or automation for my organisation?"><span class="swatch s6"></span>AI automation and agents</button></li>
+          <li><button class="layer" type="button" data-q="What training courses and workshops does Powell offer?"><span class="swatch s7"></span>Training and mentoring</button></li>
+        </ul>
+      </section>
+
+      <section class="panel contact" id="contact">
+        <h2 class="panel-title">Contact Powell</h2>
+        <p class="panel-hint">Quotes and timelines are agreed after a short scoping consultation.</p>
+        <ul class="links" id="contactLinks">
+          <li><span class="muted small">Loading contact details…</span></li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel-title">Portfolios</h2>
+        <ul class="links" id="portfolioLinks">
+          <li><a href="https://kabila96.github.io/powellndlovuportfolio/" target="_blank" rel="noopener">Main portfolio</a></li>
+          <li><a href="https://kabila96.github.io/online-cv-resume/" target="_blank" rel="noopener">Online CV</a></li>
+          <li><a href="https://kabila96.github.io/GeoAI-Portfolio/" target="_blank" rel="noopener">GeoAI portfolio</a></li>
+        </ul>
+      </section>
+    </aside>
+  </main>
+</body>
+</html>

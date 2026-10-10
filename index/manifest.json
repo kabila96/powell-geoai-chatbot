@@ -1,0 +1,45 @@
+{
+  "built_at": "2026-10-09T23:10:05+00:00",
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dim": 1536,
+  "chunk_count": 86,
+  "sources": [
+    {
+      "source": "consultancy_information.docx",
+      "type": "document",
+      "title": "Powell Ndlovu Geospatial Intelligence and AI Consultancy Profile",
+      "sections": 20,
+      "chunks": 24,
+      "suspicious_lines_removed": 0,
+      "sha256": "9b652b47be7af234d9c73a2d804cd05bea6a8acf974494e57b40a8aa3ed21d2d"
+    },
+    {
+      "source": "https://kabila96.github.io/powellndlovuportfolio/",
+      "type": "website",
+      "title": "My Website",
+      "sections": 14,
+      "chunks": 14,
+      "suspicious_lines_removed": 0,
+      "sha256": "cd701d8b6546226f2c4f8b477f1df312e511a760bd0ffbe05ffa83310ff92877"
+    },
+    {
+      "source": "https://kabila96.github.io/online-cv-resume/",
+      "type": "website",
+      "title": "Powell Andile Ndlovu \u2014 Online CV",
+      "sections": 3,
+      "chunks": 6,
+      "suspicious_lines_removed": 0,
+      "sha256": "e38909995d5114522f7cf4cc46c1cce62e23a8cae6ffe5d8d9ec6fbb45b183f7"
+    },
+    {
+      "source": "https://kabila96.github.io/GeoAI-Portfolio/",
+      "type": "website",
+      "title": "Powell Andile Ndlovu | GeoAI & Environmental Data Analyst",
+      "sections": 42,
+      "chunks": 42,
+      "suspicious_lines_removed": 0,
+      "sha256": "8a555b602273d8d94cc78bb151f3c9b23ab95e60065a0340d6ff3f32382a365b"
+    }
+  ],
+  "failed_sources": []
+}

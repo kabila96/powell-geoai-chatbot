@@ -1,0 +1,17 @@
+# Web framework + production server
+Flask>=3.0,<4.0
+gunicorn>=22.0 ; platform_system != "Windows"
+waitress>=3.0 ; platform_system == "Windows"
+
+# OpenAI API (chat model gpt-4o-mini + embeddings text-embedding-3-small)
+openai>=1.40
+
+# Knowledge-base ingestion
+python-docx>=1.1          # Word document text + tables
+requests>=2.31            # fetch portfolio pages
+beautifulsoup4>=4.12      # clean HTML
+lxml>=5.0                 # fast HTML parser for BeautifulSoup
+
+# Vector store + configuration
+numpy>=1.26               # local cosine-similarity index
+python-dotenv>=1.0        # load .env in development
